@@ -45,6 +45,14 @@ def addThaiDir(name, url, mode, image):
     ok = addDirItem(url, name, image)
     return ok
 
+def addLink(name, url, mode, image):
+    url = build_url({'mode': mode, 'url': url})
+    item = xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=image)
+    contextMenuItems = []
+    item.addContextMenuItems(contextMenuItems, replaceItems=True)
+    ok = xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=item, isFolder=False)
+    return ok
+
 def addThaiLink(name, url, mode, image, channel):
     url = build_url({'mode': mode, 'name': name.encode('tis-620'), 'url': url, 'channel': channel})
     item = xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=image)
@@ -62,14 +70,27 @@ def exists(url):
         return False
 
 def HOME():
+    url = ''
     data = parseJson(master_json)
     for item in data['Home']:
-        addDir(item['title'].encode("utf-8"), item['location'], 1, '')
+        if (exists(item['location'])):
+            url = item['location']
+        else:
+            if 'page' in item:
+                url = item['page']
+        addDir(item['title'].encode("utf-8"), url, 1, '')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def INDEX(name, url):
-    if url.endswith('.json'):
-        ''
+    if (url.endswith('.json') and exists(url)):
+        data = parseJson(url)
+        if (data['isFolder']):
+            for item in data['list']:
+                addDir(item['title'].encode("utf-8"), item['location'], 1, item['thumbnail'])
+        else:
+            for item in data['list']:
+                addLink(item['title'].encode("utf-8"), item['location'], 4, item['thumbnail'])
+            
     else:
         link = getContent(url)
         link=''.join(link.splitlines()).replace('\'','"')
@@ -119,7 +140,9 @@ def getVideoUrl(name, url, channel):
     date = ''.join(fullDate.splitlines()).replace('-','')
     hd = channel + '/' + programId + '/' + date + '1-' + programId + '.mp4'
     sd = channel + '/' + programId + '/' + date + '-' + programId + '.mp4'
+    #for host in xrange(1, 31):
     for host in uk:
+        #fullurl = "http://uk" + str (host) + ".seesantv.com/" + path
         fullurl = host + hd
         found = exists(fullurl)
         if (found):
@@ -133,6 +156,9 @@ def getVideoUrl(name, url, channel):
             if (found):
                 xbmc.Player().play(fullurl)
                 break
+
+def play(vidurl):
+    xbmc.Player().play(vidurl)
     
 def getParams():
     param = []
@@ -192,4 +218,7 @@ elif mode==2:
     getEpisodes(url)
 elif mode==3:
     getVideoUrl(name, url, channel)
+elif mode==4:
+    play(url)
+
 xbmcplugin.endOfDirectory(addon_handle)
