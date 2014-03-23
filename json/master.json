@@ -14,7 +14,7 @@
         },
         {
             "title": "ละครไทย (ออนแอร์) / Thai Dramas (on air)",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_dramas_on_air.json.old",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_dramas_on_air",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=18"
         },
         {
