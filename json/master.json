@@ -28,6 +28,11 @@
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=15"
         },
         {
+            "title": "เรียลลิตี้โชว์ / Reality & Singing Contest",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/reality_and_singing_contest.json",
+            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=84"
+        },
+        {
             "title": "ข่าว / Thai News",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_news.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=4"
