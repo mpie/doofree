@@ -12,7 +12,7 @@ addon_handle = ''
 master_json = "https://raw.githubusercontent.com/mpie/doofree/master/master.json"
 seesantv = "http://www.seesantv.com/seesantv_2014/"
 asia=["http://as11.seesantv.com/"]
-uk=["http://uk23.seesantv.com/", "http://uk24.seesantv.com/", "http://uk25.seesantv.com/", "http://uk1.seesantv.com/", "http://uk27.seesantv.com/"]
+uk=["http://uk23.seesantv.com/", "http://uk24.seesantv.com/", "http://uk12.seesantv.com/", "http://uk13.seesantv.com/", "http://uk25.seesantv.com/", "http://uk1.seesantv.com/", "http://uk27.seesantv.com/"]
 us=["http://us14.seesantv.com/"]
 
 base_url = sys.argv[0]
@@ -112,18 +112,28 @@ def getEpisodes(url):
             addThaiDir('page ' + page[0], pageUrl, 2, image)
 
 def getVideoUrl(name, url, channel):
+    trySD = True
     programId = re.compile('program_id=(\d+)').findall(url)[0]
     if (len(programId) < 5):
         programId = '0' + programId
     fullDate = re.compile('(\d+-\d+-\d+) ').findall(name)[0]
     date = ''.join(fullDate.splitlines()).replace('-','')
-    path = channel + '/' + programId + '/' + date + '1-' + programId + '.mp4'
+    hd = channel + '/' + programId + '/' + date + '1-' + programId + '.mp4'
+    sd = channel + '/' + programId + '/' + date + '-' + programId + '.mp4'
     for host in uk:
-        fullurl = host + path
+        fullurl = host + hd
         found = exists(fullurl)
         if (found):
             xbmc.Player().play(fullurl)
+            trySD = False
             break
+    if (trySD):
+        for host in uk:
+            fullurl = host + sd
+            found = exists(fullurl)
+            if (found):
+                xbmc.Player().play(fullurl)
+                break
     
 def getParams():
     param = []
@@ -183,5 +193,4 @@ elif mode==2:
     getEpisodes(url)
 elif mode==3:
     getVideoUrl(name, url, channel)
-
 xbmcplugin.endOfDirectory(addon_handle)
