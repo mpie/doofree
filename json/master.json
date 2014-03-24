@@ -1,58 +1,70 @@
 {
     "Home": [
         {
+            "id": 1,
             "title": "New Movies",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/new_movies.json"
         },
         {
+            "id": 2,
             "title": "New Series",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/new_series.json"
         },
         {
+            "id": 3,
             "title": "Live TV",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/live_tv.json"
         },
         {
+            "id": 4,
             "title": "ละครไทย (ออนแอร์) / Thai Dramas (on air)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_dramas_on_air",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=18"
         },
         {
+            "id": 5,
             "title": "ละครไทย (อวสาน) / Thai Dramas (ended)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_dramas_ended.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=27"
         },
         {
+            "id": 6,
             "title": "รายการอาหาร / Cooking Shows",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/cooking_shows.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=15"
         },
         {
+            "id": 7,
             "title": "เรียลลิตี้โชว์ / Reality & Singing Contest",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/reality_and_singing_contest.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=84"
         },
         {
+            "id": 8,
             "title": "ข่าว / Thai News",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_news.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=4"
         },
         {
+            "id": 9,
             "title": "ข่าวบันเทิง / Thai Entertainment News",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_entertainement_news.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=14"
         },
         {
+            "id": 10,
             "title": "ภาพยนตร์ไทย / Thai Movies",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/thai_movies.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=92"
         },
         {
+            "id": 11,
             "title": "ภาพยนตร์ฝรั่งใหม่ / US Movies (Thai dubbed)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/us_movies.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=98"
         },
         {
+            "id": 12,
             "title": "ซีรี่ย์ฝรั่ง / US Series (Thai dubbed)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/us_series.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=38"
