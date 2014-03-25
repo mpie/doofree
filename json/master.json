@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "New Movies",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/new_movies.json?1"
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/new_movies.json"
         },
         {
             "id": 2,
@@ -13,12 +13,12 @@
         {
             "id": 3,
             "title": "Live TV",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/live_tv.json"
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/live_tv.json"
         },
         {
             "id": 4,
             "title": "ละครไทย (ออนแอร์) / Thai Dramas (on air)",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/categories/1.json",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/categories/4.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=18"
         },
         {
