@@ -1,69 +1,131 @@
-def resolve_movreel(name, url):
-
-    try:
-
-        #Show dialog box so user knows something is happening
-        dialog = xbmcgui.DialogProgress()
-        dialog.create('Resolving', 'Resolving %s Link...' % name)
-        dialog.update(0)
-
-        print 'Movreel - Requesting GET URL: %s' % url
-        html = net().http_GET(url).content
-
-        dialog.update(33)
-
-        #Check page for any error msgs
-        if re.search('This server is in maintenance mode', html):
-            logerror('***** DooFree - Site reported maintenance mode')
-            xbmc.executebuiltin("XBMC.Notification(File is currently unavailable on the host,DooFree in maintenance,2000)")
-
-        #Set POST data values
-        op = re.search('<input type="hidden" name="op" value="(.+?)">', html).group(1)
-        postid = re.search('<input type="hidden" name="id" value="(.+?)">', html).group(1)
-        method_free = re.search('<input type="(submit|hidden)" name="method_free" (style=".*?" )*value="(.*?)">', html).group(3)
-        method_premium = re.search('<input type="(hidden|submit)" name="method_premium" (style=".*?" )*value="(.*?)">', html).group(3)
-
-
-        rand = re.search('<input type="hidden" name="rand" value="(.+?)">', html).group(1)
-        data = {'op': op, 'id': postid, 'referer': url, 'rand': rand, 'method_premium': method_premium}
-
-        print 'Movreel - Requesting POST URL: %s DATA: %s' % (url, data)
-        html = net().http_POST(url, data).content
-
-        #Only do next post if Free account, skip to last page for download link if Premium
-        if method_free:
-            #Check for download limit error msg
-            if re.search('<p class="err">.+?</p>', html):
-                logerror('***** Download limit reached')
-                errortxt = re.search('<p class="err">(.+?)</p>', html).group(1)
-                xbmc.executebuiltin("XBMC.Notification("+errortxt+",Movreel,2000)")
-
-            dialog.update(66)
-
-            #Set POST data values
-            data = {}
-            r = re.findall(r'type="hidden" name="(.+?)" value="(.+?)">', html)
-
-            if r:
-                for name, value in r:
-                    data[name] = value
-            else:
-                logerror('***** DooFree - Cannot find data values')
-                xbmc.executebuiltin("XBMC.Notification(Unable to resolve Movreel Link,Movreel,2000)")
-
-            print 'Movreel - Requesting POST URL: %s DATA: %s' % (url, data)
-            html = net().http_POST(url, data).content
-
-        #Get download link
-        dialog.update(100)
-        link = re.search('<a href="(.+)">Download Link</a>', html)
-        if link:
-            return link.group(1)
-        else:
-            xbmc.executebuiltin("XBMC.Notification(Unable to find final link,Movreel,2000)")
-
-        except Exception, e:
-            logerror('**** Movreel Error occured: %s' % e)
-            raise ResolverError(str(e),"Movreel")
-        finally:
-            dialog.close()
+{
+    "isFolder": false,
+    "list": [
+        {
+            "title": "300: Rise of an Empire",
+            "resolver": "default",
+            "location": "http://37.48.71.6/d/cuw7anbefflah72cj55upgnkyeuqcuaj6tbp27yn742yzdl4653taeq5/video.mkv",
+            "thumbnail": "http://collider.com/wp-content/uploads/300-rise-of-an-empire-poster1.jpg"
+        },
+        {
+            "title": "The Legend of Hercules",
+            "resolver": "default",
+            "location": "http://redirector.googlevideo.com/videoplayback?id=bba69097e06990b4&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398603920&sparams=id,itag,source,ip,ipbits,expire&signature=BE681C0A2DDA1A88264C335BC9E4D5F4B0AA6463.D7ED82138EF8E4E667E75CEA9396D333C59F706B&key=lh1",
+            "thumbnail": "http://pop-break.com/wp-content/uploads/2014/01/Hercules-The-Legend-Begins-2014-Movie-Poster.jpg"
+        },
+        {
+            "title": "The Book Thief",
+            "resolver": "yify",
+            "location": "http://yify.tv/the-book-thief-2013/",
+            "thumbnail": "http://indieethos.files.wordpress.com/2013/11/the-book-thief-poster.jpg?w=418&h=623"
+        },
+        {
+            "title": "Reasonable Doubt",
+            "resolver": "yify",
+            "location": "http://yify.tv/reasonable-doubt/",
+            "thumbnail": "http://img.moviepilot.com/assets/tarantulaV2/embedded_images/Reasonable-DOubt-poster_1386234952.jpg"
+        },
+        {
+            "title": "Paranormal Activity: The Marked Ones",
+            "resolver": "default",
+            "location": "http://redirector.googlevideo.com/videoplayback?id=3a0868c294b89760&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398603574&sparams=id,itag,source,ip,ipbits,expire&signature=3166A62EE2D97F246BF5C577685D97A6AB73BA4C.26A25C884D7A91B7653503BE0D72E0FDF52A5FFC&key=lh1",
+            "thumbnail": "http://i.imgur.com/QNBpIBm.jpg"
+        },
+        {
+            "title": "The Secret Life of Walter Mitty",
+            "resolver": "yify",
+            "location": "http://yify.tv/secret-life-walter-mitty/",
+            "thumbnail": "http://1.bp.blogspot.com/-gGbW-2V7hN0/Uykdq0GUoaI/AAAAAAAAZVw/PAB9r1lx8xM/s1600/mitty.jpg"
+        },
+        {
+            "title": "The Hobbit: The Desolation of Smaug",
+            "resolver": "yify",
+            "location": "http://yify.tv/hobbit-desolation-smaug/",
+            "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX640_SY720_.jpg"
+        },
+        {
+            "title": "I, Frankenstein",
+            "resolver": "yify",
+            "location": "http://yify.tv/i-frankenstein/",
+            "thumbnail": "http://4.bp.blogspot.com/-dc4-umgDjQU/UykcLPp20SI/AAAAAAAAZVI/8fHKH1JXX1Y/s1600/frankenstein.jpg"
+        },
+        {
+            "title": "Grudge Match",
+            "resolver": "yify",
+            "location": "http://yify.tv/grudge-match/",
+            "thumbnail": "https://lh5.googleusercontent.com/BEJkgmCiud7icyRxC5DFPGnJ22jikd4OUkl5W5tx7DB5=w140-h207-p-no"
+        },
+        {
+            "title": "47 Ronin",
+            "resolver": "yify",
+            "location": "http://yify.tv/47-ronin/",
+            "thumbnail": "http://www.impawards.com/2013/posters/forty_seven_ronin_ver7.jpg"
+        },
+        {
+            "title": "Anchorman 2: The Legend Continues",
+            "resolver": "yify",
+            "location": "http://yify.tv/anchorman-2-the-legend-continues/",
+            "thumbnail": "http://images.moviefanatic.com/iu/t_full/v1382715513/anchorman-2-movie-poster.jpg"
+        },
+        {
+            "title": "The Bag Man",
+            "resolver": "yify",
+            "location": "http://yify.tv/the-bag-man/",
+            "thumbnail": "http://www.filmequals.com/wp-content/uploads/2014/01/the-bag-man-movie-poster.jpg"
+        },
+        {
+            "title": "Cloudy with a Chance of Meatballs 2",
+            "resolver": "yify",
+            "location": "http://yify.tv/cloudy-chance-meatballs-2/",
+            "thumbnail": "https://lh3.googleusercontent.com/ytfKycmmXpQC39_E6uL8F3zrc--MJAU5lNY_tqXbye8=w153-h226-p-no"
+        },
+        {
+            "title": "The Wolf of Wall Street",
+            "resolver": "yify",
+            "location": "http://yify.tv/wolf-wall-street/",
+            "thumbnail": "http://www.impawards.com/2013/posters/wolf_of_wall_street_ver3.jpg"
+        },
+        {
+            "title": "Saving Mr. Banks",
+	        "resolver": "yify",
+            "location": "http://yify.tv/saving-mr-banks/",
+            "thumbnail": "http://impawards.com/2013/posters/saving_mr_banks.jpg"
+        },
+        {
+            "title": "The Hungover Games",
+	        "resolver": "yify",
+            "location": "http://yify.tv/the-hungover-games/",
+            "thumbnail": "http://nathanzoebl.files.wordpress.com/2014/03/69b558d1-9d95-4af2-a202-e4e17b7118bc_hungover-games-poster-2.jpg"
+        },
+        {
+            "title": "American Hustle",
+	        "resolver": "yify",
+            "location": "http://yify.tv/american-hustle",
+            "thumbnail": "http://www.tribute.ca/tribute_objects/images/movies/American_Hustle/AmericanHustle.jpg"
+        },
+        {
+            "title": "Frozen",
+	        "resolver": "yify",
+            "location": "http://yify.tv/frozen/",
+	        "thumbnail": "http://2.bp.blogspot.com/-3CVtzi2pCOI/UylbxFFHc4I/AAAAAAAAZaE/nQYHaXfAzSU/s1600/froezn+.jpg"
+        },
+        {
+            "title": "Gravity",
+	        "resolver": "yify",
+            "location": "http://yify.tv/gravity/",
+            "thumbnail": "http://1.bp.blogspot.com/-dO4cgCt4ivI/Uylc7a7HU5I/AAAAAAAAZac/ZnIJi6vsZ8M/s1600/gravity.jpg"
+        },
+        {
+            "title": "Thor: The Dark World",
+	        "resolver": "yify",
+            "location": "http://yify.tv/thor-the-dark-world-online-free/",
+            "thumbnail": "http://3.bp.blogspot.com/-UYQXRCuP2TU/UykbxWjGNcI/AAAAAAAAZVA/vFeDzgwSvsY/s1600/thordarkness.jpg"
+        },
+        {
+            "title": "Ender's Game",
+	        "resolver": "yify",
+            "location": "http://yify.tv/enders-game/",
+            "thumbnail": "http://1.bp.blogspot.com/-6ye8RLccTdk/UylcLajOMAI/AAAAAAAAZaM/ERwIuBiSuAY/s1600/enders+game.jpg"
+        }
+    ]
+}
