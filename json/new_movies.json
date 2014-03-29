@@ -3,107 +3,127 @@
     "list": [
 	{
 	    "title": "300: Rise of an Empire",
+	    "resolver": "default”,
 	    "location": "http://37.48.71.6/d/cuw7anbefflah72cj55upgnkyeuqcuaj6tbp27yn742yzdl4653taeq5/video.mkv",
 	    "thumbnail": "http://collider.com/wp-content/uploads/300-rise-of-an-empire-poster1.jpg"
 	},
 	{
             "title": "The Legend of Hercules",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=bba69097e06990b4&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398603920&sparams=id,itag,source,ip,ipbits,expire&signature=BE681C0A2DDA1A88264C335BC9E4D5F4B0AA6463.D7ED82138EF8E4E667E75CEA9396D333C59F706B&key=lh1",
             "thumbnail": "http://pop-break.com/wp-content/uploads/2014/01/Hercules-The-Legend-Begins-2014-Movie-Poster.jpg"
         },
 	{
 	    "title": "The Book Thief",
+	    "resolver": "yify",
 	    "location": "http://redirector.googlevideo.com/videoplayback?id=df6af666283a387c&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398606436&sparams=id,itag,source,ip,ipbits,expire&signature=C0C4C224216EEC5AC271C06A5E6CF4AEE135806D.5148E67A91AF7F16805EB31E5FA0064458DE9B05&key=lh1",
 	    "thumbnail": "http://indieethos.files.wordpress.com/2013/11/the-book-thief-poster.jpg?w=418&h=623"
 	},
 	{
 	    "title": "Reasonable Doubt",
+	    "resolver": "yify",
 	    "location": "http://redirector.googlevideo.com/videoplayback?id=1e8c24bbbad84410&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398606689&sparams=id,itag,source,ip,ipbits,expire&signature=1D2781BEF63E8BF73B310E5E7DE2880C8E5E2A1D.C42D6B376EBF8B5FAED4CCF9647C3107750A27DC&key=lh1",
 	    "thumbnail": "http://img.moviepilot.com/assets/tarantulaV2/embedded_images/Reasonable-DOubt-poster_1386234952.jpg"
 	},
         {
             "title": "Paranormal Activity: The Marked Ones",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=3a0868c294b89760&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398603574&sparams=id,itag,source,ip,ipbits,expire&signature=3166A62EE2D97F246BF5C577685D97A6AB73BA4C.26A25C884D7A91B7653503BE0D72E0FDF52A5FFC&key=lh1",
 	    "thumbnail": "http://i.imgur.com/QNBpIBm.jpg"
         },
         {
             "title": "The Secret Life of Walter Mitty",
-	    "yifi": true,
+	    "resolver": "yify",
             "location": "http://yify.tv/secret-life-walter-mitty/",
             "thumbnail": "http://1.bp.blogspot.com/-gGbW-2V7hN0/Uykdq0GUoaI/AAAAAAAAZVw/PAB9r1lx8xM/s1600/mitty.jpg"
         },
         {
             "title": "The Hobbit: The Desolation of Smaug",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=f3805fc45a882e78&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398640224&sparams=id,itag,source,ip,ipbits,expire&signature=7B90208795280476DB8255582045C215656C91DB.B09659DEEBB6332EC886CF020442911B63F48618&key=lh1",
             "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX640_SY720_.jpg"
         },
 	{
 	    "title": "I, Frankenstein (2014)",
+	    "resolver": "yify",
 	    "location": "http://redirector.googlevideo.com/videoplayback?id=32e18a98ee338a22&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398694817&sparams=id,itag,source,ip,ipbits,expire&signature=6A183B2204AADD8EEDD9A6E9B2AEAF41E58E99D5.126E12B023606DEAA04B8A02BCF5659A60179745&key=lh1",
 	    "thumbnail": "http://4.bp.blogspot.com/-dc4-umgDjQU/UykcLPp20SI/AAAAAAAAZVI/8fHKH1JXX1Y/s1600/frankenstein.jpg"
 	},
 	{
             "title": "Grudge Match",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=d7f92b5d1aefd4dc&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398694513&sparams=id,itag,source,ip,ipbits,expire&signature=D151F4C7BD376D2F603DC9404C08EB58E57F72A2.21D151637E56B7C6F4F021E21BA55F92A06D9D12&key=lh1",
             "thumbnail": "https://lh5.googleusercontent.com/BEJkgmCiud7icyRxC5DFPGnJ22jikd4OUkl5W5tx7DB5=w140-h207-p-no"
         },
         {
             "title": "47 Ronin",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=7c69f183d31495f6&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398373579&sparams=id,itag,source,ip,ipbits,expire&signature=80400A1C7C161F554ACDD244DC45A6D0C60F3755.910408F884B4820B3037BD5FC5046443D51AF10A&key=lh1",
             "thumbnail": "http://www.impawards.com/2013/posters/forty_seven_ronin_ver7.jpg"
         },
         {
             "title": "Anchorman 2: The Legend Continues",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=cb699ec833d9282b&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398375857&sparams=id,itag,source,ip,ipbits,expire&signature=8A5B38CA114B051737B1D5A8D637E2B9DAC0C14B.7F9B02A55E39B42CFBE8AE548F73A9E649DF4AE9&key=lh1",
             "thumbnail": "http://images.moviefanatic.com/iu/t_full/v1382715513/anchorman-2-movie-poster.jpg"
         },
         {
             "title": "The Bag Man",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=508afa3534e2482d&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376012&sparams=id,itag,source,ip,ipbits,expire&signature=3627DEB422A12D9F73EF9286B76CB731CDE50844.682F251B4EFCACC0B7E6E7B3C0A2FA4B41F5FE0D&key=lh1",
             "thumbnail": "http://www.filmequals.com/wp-content/uploads/2014/01/the-bag-man-movie-poster.jpg"
         },
 	{
             "title": "Cloudy with a Chance of Meatballs 2",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=4b7c1d5fe5f5953b&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398694639&sparams=id,itag,source,ip,ipbits,expire&signature=6DCFC0B82AFF220B12004EDAF5E1A5C2FF95DFED.5D07262DCB9ACBF240049D7E8A86F995E680D56F&key=lh1",
             "thumbnail": "https://lh3.googleusercontent.com/ytfKycmmXpQC39_E6uL8F3zrc--MJAU5lNY_tqXbye8=w153-h226-p-no"
         },
         {
             "title": "The Wolf of Wall Street",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=c6a69de5fa001fdb&itag=35&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398694940&sparams=id,itag,source,ip,ipbits,expire&signature=D3A8951A4DFA3EFC6CACE63508C397056041FDFB.923A613A4E30EC8027BC0F1B45FCE4E3FECD0788&key=lh1",
             "thumbnail": "http://www.impawards.com/2013/posters/wolf_of_wall_street_ver3.jpg"
         },
         {
             "title": "Saving Mr. Banks",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=a3efb0bcc3573b09&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376108&sparams=id,itag,source,ip,ipbits,expire&signature=8544A74B317780136C7EC754D5CB9BD1B830BB1B.33E6C488E1A6E56D5E9B5054F3CCA517DD2111BE&key=lh1",
             "thumbnail": "http://impawards.com/2013/posters/saving_mr_banks.jpg"
         },
         {
             "title": "The Hungover Games",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=e0164cf14b3ccccd&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376272&sparams=id,itag,source,ip,ipbits,expire&signature=85F63D92523C80DC1F612AEC42B9F506389DB042.CB61C665CC7AC2537F95E718867F989294E8DF34&key=lh1",
             "thumbnail": "http://nathanzoebl.files.wordpress.com/2014/03/69b558d1-9d95-4af2-a202-e4e17b7118bc_hungover-games-poster-2.jpg"
         },
         {
             "title": "American Hustle",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=4576e5275baa13f2&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376248&sparams=id,itag,source,ip,ipbits,expire&signature=921A0D60AA3E3E27EE810710CB3BFD11E015AC72.2A7A49CCCEAA6A49FEEC89CC11A320DEC6582A66&key=lh1",
             "thumbnail": "http://www.tribute.ca/tribute_objects/images/movies/American_Hustle/AmericanHustle.jpg"
         },
         {
             "title": "Frozen",
+	    "resolver": "yify",
             "location": "http://silicon.muchmovies.org/movies-a51a24a3/frozen-2013.mp4",
 	    "thumbnail": "http://2.bp.blogspot.com/-3CVtzi2pCOI/UylbxFFHc4I/AAAAAAAAZaE/nQYHaXfAzSU/s1600/froezn+.jpg"
         },
         {
             "title": "Gravity",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=b2e9d217fdd4edc4&itag=37&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376439&sparams=id,itag,source,ip,ipbits,expire&signature=87254D4257FA5EBBDA68E2E260E4A76AF2E15C27.82CC9D098F5D1745C84C5EC41666CCA53399CA4A&key=lh1",
             "thumbnail": "http://1.bp.blogspot.com/-dO4cgCt4ivI/Uylc7a7HU5I/AAAAAAAAZac/ZnIJi6vsZ8M/s1600/gravity.jpg"
         },
         {
             "title": "Thor: The Dark World",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=331cd0e3146d3163&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376400&sparams=id,itag,source,ip,ipbits,expire&signature=7A12C8BD143D867051957EFC31985A33555FE53C.7AFB8F7EF4E22A990386100DA86214283C31B4E6&key=lh1",
             "thumbnail": "http://3.bp.blogspot.com/-UYQXRCuP2TU/UykbxWjGNcI/AAAAAAAAZVA/vFeDzgwSvsY/s1600/thordarkness.jpg"
         },
         {
             "title": "Ender's Game",
+	    "resolver": "yify",
             "location": "http://redirector.googlevideo.com/videoplayback?id=83591eb7a9c5a49a&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398376347&sparams=id,itag,source,ip,ipbits,expire&signature=77984F618E4BC377C5574134B153E8D7AF030ACB.140B5E23FAB8009F72E9B208D5CA49719AABDC5F&key=lh1",
             "thumbnail": "http://1.bp.blogspot.com/-6ye8RLccTdk/UylcLajOMAI/AAAAAAAAZaM/ERwIuBiSuAY/s1600/enders+game.jpg"
         }
