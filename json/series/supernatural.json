@@ -1,0 +1,11 @@
+{
+    "isFolder": true,
+    "list": [
+        {
+            "id": "09",
+            "title": "Season 09",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/supernatural/09.json",
+            "thumbnail": "http://www.scifinow.co.uk/wp-content/uploads/2013/09/ustv-supernatural-season-9-poster.jpg"
+        }
+    ]
+}
