@@ -6,6 +6,54 @@
             "title": "Season 09",
             "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/09.json",
             "thumbnail": "http://www.scifinow.co.uk/wp-content/uploads/2013/09/ustv-supernatural-season-9-poster.jpg"
+        },
+        {
+            "id": "08",
+            "title": "Season 08",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/08.json",
+            "thumbnail": "http://www.ksitetv.com/wp-content/uploads/2012/10/spnseason8.jpg"
+        },
+        {
+            "id": "07",
+            "title": "Season 07",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/07.json",
+            "thumbnail": "http://2.bp.blogspot.com/-P6xFKX7c1FY/T_ymbjfwczI/AAAAAAAAAE8/yTNhxtNqsm0/s1600/Supernatural-Season-7-Promotional-Poster-winchesters-journal-25973981-960-1280.jpg"
+        },
+        {
+            "id": "06",
+            "title": "Season 06",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/06.json",
+            "thumbnail": "http://tuningintoscifitv.com/wp-content/uploads/2010/11/supernatural-s6-poster-evil-light.jpg"
+        },
+        {
+            "id": "05",
+            "title": "Season 05",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/05.json",
+            "thumbnail": "https://flipter_test_2.s3.amazonaws.com/media/photos/tmpMhbfPJ.jpg"
+        },
+        {
+            "id": "04",
+            "title": "Season 04",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/04.json",
+            "thumbnail": "http://images2.fanpop.com/images/photos/2700000/Fanmade-Season-4-Poster-supernatural-2789995-633-800.jpg"
+        },
+        {
+            "id": "03",
+            "title": "Season 03",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/03.json",
+            "thumbnail": "http://img1.wikia.nocookie.net/__cb20120926140228/supernatural/images/a/a1/Supernatural_Season_3_BRCover_2.jpg"
+        },
+        {
+            "id": "02",
+            "title": "Season 02",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/02.json",
+            "thumbnail": "http://3.bp.blogspot.com/-fmVMuWO2HZU/TfXUa372SsI/AAAAAAAAATI/SVs7zhnb724/s1600/sam+and+dean+sunset.jpg"
+        },
+        {
+            "id": "01",
+            "title": "Season 01",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural/01.json",
+            "thumbnail": "http://www.films-online.pl/images/videos/thumb_1333303769_203578.jpg"
         }
     ]
 }
