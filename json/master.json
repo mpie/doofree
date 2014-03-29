@@ -13,7 +13,7 @@
         {
             "id": 3,
             "title": "Live TV",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/live_tv.json"
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/live_tv.json"
         },
         {
             "id": 4,
