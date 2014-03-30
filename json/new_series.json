@@ -9,12 +9,6 @@
         },
         {
             "id": "supernatural",
-            "title": "Supernatural 2",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/series/supernatural2.json",
-            "thumbnail": "http://4.bp.blogspot.com/-0KA0xV-jwDw/UnETaLZvoSI/AAAAAAAAAPY/cewLgFa57jA/s1600/Supernatural+logo.jpg"
-        },
-        {
-            "id": "supernatural",
             "title": "Supernatural",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/supernatural.json",
             "thumbnail": "http://4.bp.blogspot.com/-0KA0xV-jwDw/UnETaLZvoSI/AAAAAAAAAPY/cewLgFa57jA/s1600/Supernatural+logo.jpg"

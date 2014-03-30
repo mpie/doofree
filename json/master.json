@@ -8,7 +8,7 @@
         {
             "id": 2,
             "title": "New Series",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/REV-1.1.5/json/new_series.json"
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/new_series.json"
         },
         {
             "id": 3,
