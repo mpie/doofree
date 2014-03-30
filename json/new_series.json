@@ -20,6 +20,12 @@
             "thumbnail": "http://www.themediafire.com/wp-content/uploads/2011/09/New-Girl-Poster-TheMediaFire.jpg"
         },
         {
+            "id": "game_of_thrones",
+            "title": "Game of Thrones",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/game_of_thrones.json",
+            "thumbnail": "http://2.bp.blogspot.com/-5dLtJqEI7Sk/UXR71oGFm7I/AAAAAAAAFjo/9TU40kRjMrk/s640/Game-of-Thrones1.png"
+        },
+        {
             "id": "revolution",
             "title": "Revolution",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/revolution.json",
@@ -54,6 +60,12 @@
             "title": "Arrow",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/arrow.json",
             "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/08/arrow_season2_poster.jpg"
+        },
+        {
+            "id": "true_blood",
+            "title": "True Blood",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/true_blood.json",
+            "thumbnail": "http://upload.wikimedia.org/wikipedia/it/3/31/True_Blood_titoli.png"
         }
     ]
 }
