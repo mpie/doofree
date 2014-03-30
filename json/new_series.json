@@ -32,6 +32,12 @@
             "thumbnail": "http://2.bp.blogspot.com/-5dLtJqEI7Sk/UXR71oGFm7I/AAAAAAAAFjo/9TU40kRjMrk/s640/Game-of-Thrones1.png"
         },
         {
+            "id": "blacklist",
+            "title": "The Blacklist",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/blacklist.json",
+            "thumbnail": "http://www.webtvwire.com/wp-content/uploads/2013/09/the-blacklist-logo.jpg"
+        },
+        {
             "id": "revolution",
             "title": "Revolution",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/revolution.json",
