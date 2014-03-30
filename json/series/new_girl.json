@@ -1,0 +1,23 @@
+{
+    "isFolder": true,
+    "list": [
+        {
+            "id": "03",
+            "title": "Season 03 (2013-2014)",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl/03.json",
+            "thumbnail": "http://i2.wp.com/unrealitytv.com/wp-content/uploads/2013/08/new-girl-key-art_612x928.jpg?resize=475%2C720"
+        },
+        {
+            "id": "02",
+            "title": "Season 02 (2012-2013)",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl/02.json",
+            "thumbnail": "http://www.swoonreads.com/wp/wp-content/uploads/2013/09/Kate-J-New-Girl.jpg"
+        },
+        {
+            "id": "01",
+            "title": "Season 01 (2011-2012)",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl/01.json",
+            "thumbnail": "http://geekypastor.com/wp-content/uploads/2014/01/new-girl-2011-fox-poster-sezonul-1.jpg"
+        }
+    ]
+}
