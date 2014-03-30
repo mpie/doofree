@@ -2,6 +2,12 @@
     "isFolder": true,
     "list": [
         {
+            "id": "gurren_lagann",
+            "title": "Tengen Toppa Gurren Lagann",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/gurren_lagann.json",
+            "thumbnail": "http://fanart.tv/fanart/tv/80096/hdtvlogo/tengen-toppa-gurren-lagann-507652526a3c9.png"
+        },
+        {
             "id": "supernatural",
             "title": "Supernatural",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/supernatural.json",
