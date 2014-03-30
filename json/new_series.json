@@ -50,6 +50,12 @@
             "thumbnail": "http://wallcapture.com/wp-content/uploads/2013/11/Agents-of-Shield-Poster-Wallpaper-HD.jpg"
         },
         {
+            "id": "walking_dead",
+            "title": "The Walking Dead",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/walking_dead.json",
+            "thumbnail": "http://postgradproblems.com/wp-content/uploads/2013/10/56130690509407d25df45f5c56c11e16.jpg"
+        },
+        {
             "id": "breaking_bad",
             "title": "Breaking Bad",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/breaking_bad.json",
