@@ -18,6 +18,30 @@
             "title": "New Girl",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl.json",
             "thumbnail": "http://www.themediafire.com/wp-content/uploads/2011/09/New-Girl-Poster-TheMediaFire.jpg"
+        },
+        {
+            "id": "revolution",
+            "title": "Revolution",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl.json",
+            "thumbnail": "http://imagesyoulike.com/images/rcjg/24x18/j0035.jpg"
+        },
+        {
+            "id": "marvel",
+            "title": "Marvel Agents of S.H.I.E.L.D.",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/marvel.json",
+            "thumbnail": "http://wallcapture.com/wp-content/uploads/2013/11/Agents-of-Shield-Poster-Wallpaper-HD.jpg"
+        },
+        {
+            "id": "nikita",
+            "title": "Nikita",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/nikita.json",
+            "thumbnail": "http://www.impawards.com/tv/posters/nikita_xlg.jpg"
+        },
+        {
+            "id": "arrow",
+            "title": "Arrow",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/arrow.json",
+            "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/08/arrow_season2_poster.jpg"
         }
     ]
 }
