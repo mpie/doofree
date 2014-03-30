@@ -26,10 +26,22 @@
             "thumbnail": "http://imagesyoulike.com/images/rcjg/24x18/j0035.jpg"
         },
         {
+            "id": "davinci_demons",
+            "title": "Da Vinci's Demons",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/davinci_demons.json",
+            "thumbnail": "http://www.assignmentx.com/wp-content/uploads/2013/04/DAVINCIS-DEMONS-poster.jpg"
+        },
+        {
             "id": "marvel",
             "title": "Marvel Agents of S.H.I.E.L.D.",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/marvel.json",
             "thumbnail": "http://wallcapture.com/wp-content/uploads/2013/11/Agents-of-Shield-Poster-Wallpaper-HD.jpg"
+        },
+        {
+            "id": "breaking_bad",
+            "title": "Breaking Bad",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/breaking_bad.json",
+            "thumbnail": "http://3.bp.blogspot.com/-089qRveCJtc/UjC8Oqj02QI/AAAAAAAAM5Y/TD53slMSJv4/s640/breaking-bad-poster.jpg"
         },
         {
             "id": "nikita",
