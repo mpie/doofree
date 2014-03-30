@@ -2,6 +2,12 @@
     "isFolder": true,
     "list": [
         {
+            "id": "the_100",
+            "title": "The 100",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/the_100.json",
+            "thumbnail": "http://upload.wikimedia.org/wikipedia/en/9/99/Series_logo_for_The_100.png.jpg"
+        },
+        {
             "id": "gurren_lagann",
             "title": "Tengen Toppa Gurren Lagann",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/gurren_lagann.json",
