@@ -28,6 +28,12 @@
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=27"
         },
         {
+            "id": 13,
+            "title": "ซีรี่ย์เกาหลี / Korean Series",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/korean_dramas.json",
+            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=17"
+        },
+        {
             "id": 6,
             "title": "รายการอาหาร / Cooking Shows",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/cooking_shows.json",
@@ -68,12 +74,6 @@
             "title": "ซีรี่ย์ฝรั่ง / US Series (Thai dubbed)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/us_series.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=38"
-        },
-        {
-            "id": 13,
-            "title": "ซีรี่ย์เกาหลี / Korean Series",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/korean_dramas.json",
-            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=17"
         }
     ]
 }
