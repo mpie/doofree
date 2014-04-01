@@ -4,85 +4,85 @@
         {
             "id": "the_100",
             "title": "The 100",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/the_100.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/the_100.json",
             "thumbnail": "http://upload.wikimedia.org/wikipedia/en/9/99/Series_logo_for_The_100.png.jpg"
         },
         {
             "id": "gurren_lagann",
             "title": "Tengen Toppa Gurren Lagann",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/gurren_lagann.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/gurren_lagann.json",
             "thumbnail": "http://fanart.tv/fanart/tv/80096/hdtvlogo/tengen-toppa-gurren-lagann-507652526a3c9.png"
         },
         {
             "id": "supernatural",
             "title": "Supernatural",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/supernatural.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/supernatural.json",
             "thumbnail": "http://4.bp.blogspot.com/-0KA0xV-jwDw/UnETaLZvoSI/AAAAAAAAAPY/cewLgFa57jA/s1600/Supernatural+logo.jpg"
         },
         {
             "id": "new_girl",
             "title": "New Girl",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/new_girl.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/new_girl.json",
             "thumbnail": "http://www.themediafire.com/wp-content/uploads/2011/09/New-Girl-Poster-TheMediaFire.jpg"
         },
         {
             "id": "game_of_thrones",
             "title": "Game of Thrones",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/game_of_thrones.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/game_of_thrones.json",
             "thumbnail": "http://2.bp.blogspot.com/-5dLtJqEI7Sk/UXR71oGFm7I/AAAAAAAAFjo/9TU40kRjMrk/s640/Game-of-Thrones1.png"
         },
         {
             "id": "blacklist",
             "title": "The Blacklist",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/blacklist.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/blacklist.json",
             "thumbnail": "http://www.webtvwire.com/wp-content/uploads/2013/09/the-blacklist-logo.jpg"
         },
         {
             "id": "revolution",
             "title": "Revolution",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/revolution.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/revolution.json",
             "thumbnail": "http://imagesyoulike.com/images/rcjg/24x18/j0035.jpg"
         },
         {
             "id": "davinci_demons",
             "title": "Da Vinci's Demons",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/davinci_demons.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/davinci_demons.json",
             "thumbnail": "http://www.assignmentx.com/wp-content/uploads/2013/04/DAVINCIS-DEMONS-poster.jpg"
         },
         {
             "id": "marvel",
             "title": "Marvel Agents of SHIELD",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/marvel.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/marvel.json",
             "thumbnail": "http://wallcapture.com/wp-content/uploads/2013/11/Agents-of-Shield-Poster-Wallpaper-HD.jpg"
         },
         {
             "id": "walking_dead",
             "title": "The Walking Dead",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/walking_dead.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/walking_dead.json",
             "thumbnail": "http://postgradproblems.com/wp-content/uploads/2013/10/56130690509407d25df45f5c56c11e16.jpg"
         },
         {
             "id": "breaking_bad",
             "title": "Breaking Bad",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/breaking_bad.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/breaking_bad.json",
             "thumbnail": "http://3.bp.blogspot.com/-089qRveCJtc/UjC8Oqj02QI/AAAAAAAAM5Y/TD53slMSJv4/s640/breaking-bad-poster.jpg"
         },
         {
             "id": "nikita",
             "title": "Nikita",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/nikita.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/nikita.json",
             "thumbnail": "http://www.impawards.com/tv/posters/nikita_xlg.jpg"
         },
         {
             "id": "arrow",
             "title": "Arrow",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/arrow.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/arrow.json",
             "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/08/arrow_season2_poster.jpg"
         },
         {
             "id": "true_blood",
             "title": "True Blood",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/series/true_blood.json",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/true_blood.json",
             "thumbnail": "http://upload.wikimedia.org/wikipedia/it/3/31/True_Blood_titoli.png"
         }
     ]
