@@ -80,6 +80,18 @@
             "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Breaking-Bad-icon.png"
         },
         {
+            "id": "person_of_interest",
+            "title": "Person of Interest",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/person_of_interest.json",
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Person-of-Interest-icon.png"
+        },
+        {
+            "id": "elementary",
+            "title": "Elementary",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/elementary.json",
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Elementary-icon.png"
+        },
+        {
             "id": "nikita",
             "title": "Nikita",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/nikita.json",
