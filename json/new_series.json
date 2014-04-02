@@ -74,6 +74,12 @@
             "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-walking-dead-icon.png"
         },
         {
+            "id": "continuum",
+            "title": "Continuum",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/continuum.json",
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Continuum-icon.png"
+        },
+        {
             "id": "breaking_bad",
             "title": "Breaking Bad",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/breaking_bad.json",
