@@ -32,6 +32,12 @@
             "thumbnail": "http://www.themediafire.com/wp-content/uploads/2011/09/New-Girl-Poster-TheMediaFire.jpg"
         },
         {
+            "id": "scandal",
+            "title": "Scandal",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/scandal.json",
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Scandal-icon.png"
+        },
+        {
             "id": "vampire_diaries",
             "title": "The Vampire Diaries",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/vampire_diaries.json",
