@@ -23,7 +23,7 @@
             "id": "supernatural",
             "title": "Supernatural",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/supernatural.json",
-            "thumbnail": "http://4.bp.blogspot.com/-0KA0xV-jwDw/UnETaLZvoSI/AAAAAAAAAPY/cewLgFa57jA/s1600/Supernatural+logo.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Supernatural-icon.png"
         },
         {
             "id": "new_girl",
@@ -32,10 +32,16 @@
             "thumbnail": "http://www.themediafire.com/wp-content/uploads/2011/09/New-Girl-Poster-TheMediaFire.jpg"
         },
         {
+            "id": "vampire_diaries",
+            "title": "The Vampire Diaries",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/vampire_diaries.json",
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-Vampire-Diaries-v2-icon.png"
+        },
+        {
             "id": "game_of_thrones",
             "title": "Game of Thrones",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/game_of_thrones.json",
-            "thumbnail": "http://2.bp.blogspot.com/-5dLtJqEI7Sk/UXR71oGFm7I/AAAAAAAAFjo/9TU40kRjMrk/s640/Game-of-Thrones1.png"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Game-of-Thrones-icon.png"
         },
         {
             "id": "blacklist",
@@ -47,13 +53,13 @@
             "id": "revolution",
             "title": "Revolution",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/revolution.json",
-            "thumbnail": "http://imagesyoulike.com/images/rcjg/24x18/j0035.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Revolution-icon.png"
         },
         {
             "id": "davinci_demons",
             "title": "Da Vinci's Demons",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/davinci_demons.json",
-            "thumbnail": "http://www.assignmentx.com/wp-content/uploads/2013/04/DAVINCIS-DEMONS-poster.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Da-Vincis-Demons-icon.png"
         },
         {
             "id": "marvel",
@@ -65,13 +71,13 @@
             "id": "walking_dead",
             "title": "The Walking Dead",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/walking_dead.json",
-            "thumbnail": "http://postgradproblems.com/wp-content/uploads/2013/10/56130690509407d25df45f5c56c11e16.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-walking-dead-icon.png"
         },
         {
             "id": "breaking_bad",
             "title": "Breaking Bad",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/breaking_bad.json",
-            "thumbnail": "http://3.bp.blogspot.com/-089qRveCJtc/UjC8Oqj02QI/AAAAAAAAM5Y/TD53slMSJv4/s640/breaking-bad-poster.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Breaking-Bad-icon.png"
         },
         {
             "id": "nikita",
@@ -83,7 +89,7 @@
             "id": "arrow",
             "title": "Arrow",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/arrow.json",
-            "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/08/arrow_season2_poster.jpg"
+            "thumbnail": "http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Arrow-icon.png"
         },
         {
             "id": "true_blood",
