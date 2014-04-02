@@ -2,6 +2,12 @@
     "isFolder": true,
     "list": [
         {
+	    "id": "beauty_and_the_beast",
+            "title": "Beauty and the Beast",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/beauty_and_the_beast.json",
+            "thumbnail": "http://momentummoonlight.com/wp-content/uploads/2013/12/Beauty-and-the-Beast.jpg"
+        },
+        {
             "id": "the_100",
             "title": "The 100",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/the_100.json",
