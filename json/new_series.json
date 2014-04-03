@@ -2,6 +2,12 @@
     "isFolder": true,
     "list": [
         {
+            "id": "astrid",
+            "title": "Astrid",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/astrid.json",
+            "thumbnail": "https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997-6/p128x128/851560_1398251780393005_1761815817_n.png"
+        },
+        {
 	    "id": "beauty_and_the_beast",
             "title": "Beauty and the Beast",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/beauty_and_the_beast.json",
