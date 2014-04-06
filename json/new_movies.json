@@ -2,6 +2,18 @@
     "isFolder": false,
     "list": [
         {
+            "title": "The Pirate Fairy",
+            "resolver": "yify",
+            "location": "http://yify.tv/tinker-bell-and-the-pirate-fairy/",
+            "thumbnail" : "http://www.dover.lib.nh.us/piratefairy.jpg"
+        },
+        {
+            "title": "The Nut Job",
+            "resolver": "yify",
+            "location": "http://yify.tv/the-nut-job/",
+            "thumbnail" : "http://www.tensecondscoop.com/wp-content/uploads/2014/01/The-Nut-Job-Movie-Poster-400x600.jpg"
+        },
+        {
         "title": "Snowpiercer",
         "resolver": "default",
         "location": "http://redirector.googlevideo.com/videoplayback?id=dc582911504528c6&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1399398271&sparams=id,itag,source,ip,ipbits,expire&signature=8FA27FDC21999D8CDB374C8BD3B5D95792D9B1F4.1EB71074BFD2DACCD0E4544BD61D72758037B809&key=lh1",
@@ -15,8 +27,8 @@
         },
         {
             "title": "The Legend of Hercules",
-            "resolver": "default",
-            "location": "http://redirector.googlevideo.com/videoplayback?id=bba69097e06990b4&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1398603920&sparams=id,itag,source,ip,ipbits,expire&signature=BE681C0A2DDA1A88264C335BC9E4D5F4B0AA6463.D7ED82138EF8E4E667E75CEA9396D333C59F706B&key=lh1",
+            "resolver": "movreel",
+            "location": "http://movreel.com/x4ngg5ep20sm.html",
             "thumbnail": "http://pop-break.com/wp-content/uploads/2014/01/Hercules-The-Legend-Begins-2014-Movie-Poster.jpg"
         },
         {
