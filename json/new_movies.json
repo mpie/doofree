@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+        "title": "Snowpiercer",
+        "resolver": "default",
+        "location": "http://redirector.googlevideo.com/videoplayback?id=dc582911504528c6&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1399398271&sparams=id,itag,source,ip,ipbits,expire&signature=8FA27FDC21999D8CDB374C8BD3B5D95792D9B1F4.1EB71074BFD2DACCD0E4544BD61D72758037B809&key=lh1",
+        "thumbnail": "http://media2.firstshowing.net/firstshowing/img7/snowpiercer-internationalposter-snowytrain-full.jpg"
+        },
+        {
             "title": "300: Rise of an Empire",
             "resolver": "default",
             "location": "http://37.48.71.6/d/cuw7anbefflah72cj55upgnkyeuqcuaj6tbp27yn742yzdl4653taeq5/video.mkv",
