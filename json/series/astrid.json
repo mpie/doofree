@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+        "title": "Game of Thrones S04E01",
+        "resolver": "firedrive",
+        "location": "http://www.firedrive.com/file/683D05BEBE8019F8",
+        "thumbnail": ""
+        },
+        {
             "title": "New Girl S03E20",
             "resolver": "movreel",
             "location": "http://movreel.com/19uh6ltgo42d.html",
