@@ -51,8 +51,8 @@
         },
         {
             "title": "The Secret Life of Walter Mitty",
-            "resolver": "yify",
-            "location": "http://yify.tv/secret-life-walter-mitty/",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3285",
             "thumbnail": "http://1.bp.blogspot.com/-gGbW-2V7hN0/Uykdq0GUoaI/AAAAAAAAZVw/PAB9r1lx8xM/s1600/mitty.jpg"
         },
         {
