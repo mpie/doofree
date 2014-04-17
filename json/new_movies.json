@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Devil's Due",
+            "resolver": "firedrive",
+            "location": "http://www.firedrive.com/file/8BF562C87AB5F96C",
+            "thumbnail": "http://1.bp.blogspot.com/-n0DIycuiYSg/UrkRWyOs4EI/AAAAAAAAADc/2dNVOjzEKX0/s1600/Devil%27s+Due+Intl+Poster.jpg"
+        },
+        {
             "title": "The Pirate Fairy",
             "resolver": "yify",
             "location": "http://yify.tv/tinker-bell-and-the-pirate-fairy/",
