@@ -34,7 +34,7 @@
         {
             "title": "GMM One",
             "resolver": "default",
-            "location": "rtmp://as3.seesantv.com/live2/chsinjai1 playPath=chsinjai1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chsinjai1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.04502230347134173 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chTvIL2BvF1 playPath=chTvIL2BvF1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chTvIL2BvF1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.04502230347134173 live=true",
             "thumbnail": ""
         },
         {
