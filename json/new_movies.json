@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Robocop",
+            "resolver": "yifi",
+            "location": "http://yify.tv/robocop-2014/",
+            "thumbnail": "http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/insert_main_wide_image/public/robocop_2014_poster.jpg"
+        },
+        {
             "title": "Devil's Due",
             "resolver": "firedrive",
             "location": "http://www.firedrive.com/file/8BF562C87AB5F96C",
@@ -9,14 +15,14 @@
         },
         {
             "title": "The Pirate Fairy",
-            "resolver": "yify",
-            "location": "http://yify.tv/tinker-bell-and-the-pirate-fairy/",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3427",
             "thumbnail" : "http://www.dover.lib.nh.us/piratefairy.jpg"
         },
         {
             "title": "The Nut Job",
-            "resolver": "yify",
-            "location": "http://yify.tv/the-nut-job/",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3451",
             "thumbnail" : "http://www.tensecondscoop.com/wp-content/uploads/2014/01/The-Nut-Job-Movie-Poster-400x600.jpg"
         },
         {
