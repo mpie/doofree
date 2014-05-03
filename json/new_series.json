@@ -2,6 +2,12 @@
     "isFolder": true,
     "list": [
         {
+            "id": "dynamo_magician_impossible",
+            "title": "Dynamo Magician Impossible",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/dynamo_magician_impossible.json",
+            "thumbnail": "http://best-pics-hosting.cc/upload/moviebox/1383408378.jpg"
+        },
+        {
 	    "id": "beauty_and_the_beast",
             "title": "Beauty and the Beast",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/beauty_and_the_beast.json",
