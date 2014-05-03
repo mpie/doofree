@@ -2,9 +2,9 @@
     "isFolder": false,
     "list": [
         {
-            "title": "Robocop",
-            "resolver": "yifi",
-            "location": "http://yify.tv/robocop-2014/",
+            "title": "Robocop (2014)",
+            "resolver": "movreel",
+            "location": "http://movreel.com/rki5nla6xxij",
             "thumbnail": "http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/insert_main_wide_image/public/robocop_2014_poster.jpg"
         },
         {
