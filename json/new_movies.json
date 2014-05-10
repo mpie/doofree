@@ -2,6 +2,18 @@
     "isFolder": false,
     "list": [
         {
+            "title": "3 Days to Kill",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3584",
+            "thumbnail": "http://cdn11.ne.be/movies/13261/52397.jpg"
+        },
+        {
+            "title": "Vampire Academy",
+            "resolver": "yify",
+            "location": "http://yify.tv/vampire-academy/",
+            "thumbnail": "http://www.cinemablend.com/images/news/41167/_1389972352.jpg"
+        },
+        {
             "title": "Pompeii (2014)",
             "resolver": "movreel",
             "location": "http://movreel.com/bubxjdmpn9uu",
