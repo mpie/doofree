@@ -16,7 +16,7 @@
         {
             "title": "TV7",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chGu091NR1c playPath=chGu091NR1c pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGu091NR1c swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9520271455403417 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chGu09iNRbD playPath=chGu09iNRbD pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGu09iNRbD swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9520271455403417 live=true",
             "thumbnail": ""
         },
         {
