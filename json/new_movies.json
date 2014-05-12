@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Jack Ryan Shadow Recruit (2014)",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3582",
+            "thumbnail": "http://www.spotlightreport.net/wp-content/uploads/2013/12/Jack-Ryan-Shadow-Recruit-Poster.jpg"
+        },
+        {
             "title": "3 Days to Kill",
             "resolver": "mbox",
             "location": "http://mobapps.cc/api/serials/get_movie_data?id=3584",
