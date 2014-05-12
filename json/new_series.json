@@ -20,6 +20,12 @@
             "thumbnail": "http://upload.wikimedia.org/wikipedia/en/9/99/Series_logo_for_The_100.png.jpg"
         },
         {
+            "id": "banshee",
+            "title": "Banshee",
+            "location": "https://raw.github.com/mpie/doofree/master/json/series/banshee.json",
+            "thumbnail": "http://www.abload.de/img/bansheelogoxdb91.jpg"
+        },
+        {
             "id": "gurren_lagann",
             "title": "Tengen Toppa Gurren Lagann",
             "location": "https://raw.github.com/mpie/doofree/master/json/series/gurren_lagann.json",
