@@ -4,31 +4,31 @@
         {
             "title": "TV3",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chPjl79VZgIQq playPath=chPjl79VZgIQq pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjl79VZgIQq swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.057713095331564546 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chPjl66VZgIQq playPath=chPjl66VZgIQq pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjl66VZgIQq swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.057713095331564546 live=true",
             "thumbnail": ""
         },
         {
             "title": "TV5",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as2/ch8S0A24hgU playPath=ch8S0A24hgU pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=ch8S0A24hgU swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.891892459243536 live=true",
+            "location": "rtmp://uk24.seesantv.com/as2/chBn70A2ShfY playPath=chBn70A2ShfY pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chBn70A2ShfY swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.891892459243536 live=true",
             "thumbnail": ""
         },
         {
             "title": "TV7",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chGu09iNRbD playPath=chGu09iNRbD pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGu09iNRbD swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9520271455403417 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chGup9iNR123 playPath=chGup9iNR123 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGup9iNR123 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9520271455403417 live=true",
             "thumbnail": ""
         },
         {
             "title": "TV8",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/live2/ch8boEIv70xA1 playPath=ch8boEIv70xA1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=ch8boEIv70xA1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.007964983815327287 live=true",
+            "location": "rtmp://uk24.seesantv.com/as1/chQ2CcIv70xA1 playPath=chQ2CcIv70xA1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chQ2CcIv70xA1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.007964983815327287 live=true",
             "thumbnail": ""
         },
         {
             "title": "MCOT",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chHpo4LRbcX playPath=chHpo4LRbcX pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chHpo4LRbcX swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5825526847038418 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chS14Lrk8paX playPath=chS14Lrk8paX pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chS14Lrk8paX swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5825526847038418 live=true",
             "thumbnail": ""
         },
         {
@@ -40,25 +40,25 @@
         {
             "title": "Blue Sky",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chBLg4usKY1 playPath=chBLg4usKY1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chBLg4usKY1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.3679126442875713 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chKtYg4usKi81 playPath=chKtYg4usKi81 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chKtYg4usKi81 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.3679126442875713 live=true",
             "thumbnail": ""
         },
         {
             "title": "GTH On Air",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chGf0mLo2L1 playPath=chGf0mLo2L1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGf0mLo2L1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.1406217087060213 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chGi9BmLj2L1 playPath=chGi9BmLj2L1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGi9BmLj2L1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.1406217087060213 live=true",
             "thumbnail": ""
         },
         {
             "title": "M Channel",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as2/chMchaKPn7EL1 playPath=chMchaKPn7EL1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chMchaKPn7EL1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9401763454079628 live=true",
+            "location": "rtmp://uk24.seesantv.com/as2/chMchaKPn7dK1 playPath=chMchaKPn7dK1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chMchaKPn7dK1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9401763454079628 live=true",
             "thumbnail": ""
         },
         {
             "title": "Cartoon Club",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chNu0s72WelL1 playPath=chNu0s72WelL1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chNu0s72WelL1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5808054108638316 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chNu0Q72Welz1 playPath=chNu0Q72Welz1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chNu0Q72Welz1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5808054108638316 live=true",
             "thumbnail": ""
         }
     ]
