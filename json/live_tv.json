@@ -4,7 +4,7 @@
         {
             "title": "TV3",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chPjl66VZgIQq playPath=chPjl66VZgIQq pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjl66VZgIQq swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.057713095331564546 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chPjA5cKoM1b playPath=chPjA5cKoM1b pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjA5cKoM1b swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.057713095331564546 live=true",
             "thumbnail": ""
         },
         {
