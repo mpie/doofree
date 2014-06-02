@@ -4,61 +4,61 @@
         {
             "title": "TV3",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chPjA5cKoM1b playPath=chPjA5cKoM1b pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjA5cKoM1b swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.057713095331564546 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chPjJmcKoM1p playPath=chPjJmcKoM1p pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPjJmcKoM1p swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
             "title": "TV5",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as2/chBn70A2ShfY playPath=chBn70A2ShfY pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chBn70A2ShfY swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.891892459243536 live=true",
+            "location": "rtmp://uk24.seesantv.com/as2/chBn70A2RhfYa playPath=chBn70A2RhfYa pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chBn70A2RhfYa swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
             "title": "TV7",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chGup9iNR123 playPath=chGup9iNR123 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGup9iNR123 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9520271455403417 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chGup9iNS123e playPath=chGup9iNS123e pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGup9iNS123e swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
             "title": "TV8",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as1/chQ2CcIv70xA1 playPath=chQ2CcIv70xA1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chQ2CcIv70xA1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.007964983815327287 live=true",
+            "location": "rtmp://uk24.seesantv.com/as1/chQ2CcIv70AA1 playPath=chQ2CcIv70AA1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chQ2CcIv70AA1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
             "title": "MCOT",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chS14Lrk8paX playPath=chS14Lrk8paX pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chS14Lrk8paX swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5825526847038418 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chS14Lrk8paXoA playPath=chS14Lrk8paXoA pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chS14Lrk8paXoA swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
-            "title": "GMM One",
+            "title": "One",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chTvIL2BvF1 playPath=chTvIL2BvF1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chTvIL2BvF1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.04502230347134173 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chKtYg4uski81 playPath=chKtYg4uski81 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chKtYg4uski81 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
-            "title": "Blue Sky",
+            "title": "PPTV",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chKtYg4usKi81 playPath=chKtYg4usKi81 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chKtYg4usKi81 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.3679126442875713 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chPi4YcmE1b2 playPath=chPi4YcmE1b2 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chPi4YcmE1b2 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
             "title": "GTH On Air",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as4/chGi9BmLj2L1 playPath=chGi9BmLj2L1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGi9BmLj2L1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.1406217087060213 live=true",
+            "location": "rtmp://uk24.seesantv.com/as4/chGi9BmLjL1 playPath=chGi9BmLjL1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chGi9BmLjL1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
-            "title": "M Channel",
+            "title": "Thairath",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as2/chMchaKPn7dK1 playPath=chMchaKPn7dK1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chMchaKPn7dK1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.9401763454079628 live=true",
+            "location": "rtmp://uk24.seesantv.com/as2/chUyMmALqP2 playPath=chUyMmALqP2 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chUyMmALqP2 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         },
         {
-            "title": "Cartoon Club",
+            "title": "ThaiPBS",
             "resolver": "default",
-            "location": "rtmp://uk24.seesantv.com/as3/chNu0Q72Welz1 playPath=chNu0Q72Welz1 pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chNu0Q72Welz1 swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf?0.5808054108638316 live=true",
+            "location": "rtmp://uk24.seesantv.com/as3/chAbA123b playPath=chAbA123b pageUrl=http://www.seesantv.com/seesantv_2014/live_frame.php?ch=chAbA123b swfUrl=http://www.seesantv.com/seesantv_2014/flowplayer.commercial-3.2.5.swf live=true",
             "thumbnail": ""
         }
     ]
