@@ -2,6 +2,30 @@
     "isFolder": false,
     "list": [
         {
+            "title": "300: Rise of an Empire",
+            "resolver": "default",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3432",
+            "thumbnail": "http://collider.com/wp-content/uploads/300-rise-of-an-empire-poster1.jpg"
+        },
+        {
+            "title": "Need for Speed",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3506",
+            "thumbnail": "http://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/52d78924e4b07ce988df4fbb/1389857061527/Need_For_Speed_New_International_Poster_JPosters.jpg"
+        },
+        {
+            "title": "The Lego Movie",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3569",
+            "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/11/the-lego-movie-poster-full-photo.jpg"
+        },
+        {
+            "title": "Non-Stop",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3697",
+            "thumbnail": "http://www.17.com.my/wp-content/uploads/2014/01/NONSTOP-poster-FINAL1.jpg"
+        },
+        {
             "title": "Jack Ryan Shadow Recruit (2014)",
             "resolver": "mbox",
             "location": "http://mobapps.cc/api/serials/get_movie_data?id=3582",
@@ -60,12 +84,6 @@
         "resolver": "default",
         "location": "http://redirector.googlevideo.com/videoplayback?id=dc582911504528c6&itag=22&source=picasa&cmo=sensitive_content%3Dyes&ip=0.0.0.0&ipbits=0&expire=1399398271&sparams=id,itag,source,ip,ipbits,expire&signature=8FA27FDC21999D8CDB374C8BD3B5D95792D9B1F4.1EB71074BFD2DACCD0E4544BD61D72758037B809&key=lh1",
         "thumbnail": "http://media2.firstshowing.net/firstshowing/img7/snowpiercer-internationalposter-snowytrain-full.jpg"
-        },
-        {
-            "title": "300: Rise of an Empire",
-            "resolver": "default",
-            "location": "http://37.48.71.6/d/cuw7anbefflah72cj55upgnkyeuqcuaj6tbp27yn742yzdl4653taeq5/video.mkv",
-            "thumbnail": "http://collider.com/wp-content/uploads/300-rise-of-an-empire-poster1.jpg"
         },
         {
             "title": "The Legend of Hercules",
