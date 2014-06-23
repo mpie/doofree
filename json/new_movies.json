@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+            "title": "The Grand Budapest Hotel",
+            "resolver": "movreel",
+            "location": "http://movreel.com/2btg4s35d5ok",
+            "thumbnail": "http://media.aintitcool.com/media/uploads/2013/horrorella/grand_budapest_hotel_poster2_large.jpg"
+        },
+        {
             "title": "Walk of Shame",
             "resolver": "movreel",
             "location": "http://movreel.com/cfv3rbqj4th4",
