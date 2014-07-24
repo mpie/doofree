@@ -74,6 +74,12 @@
             "title": "ซีรี่ย์ฝรั่ง / US Series (Thai dubbed)",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/us_series.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=38"
+        },
+        {
+            "id": 13,
+            "title": "ภาพยนตร์แอนนิเมชั่น / Animation",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/animation.json",
+            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=93"
         }
     ]
 }
