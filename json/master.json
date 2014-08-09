@@ -39,6 +39,12 @@
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/cooking_shows.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=15"
         },
+	{
+            "id": 15,
+            "title": "วาไรตี้โชว์ / Variety Shows",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/variety_shows.json",
+            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=8"
+        },
         {
             "id": 7,
             "title": "เรียลลิตี้โชว์ / Reality & Singing Contest",
@@ -76,7 +82,7 @@
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=38"
         },
         {
-            "id": 13,
+            "id": 14,
             "title": "ภาพยนตร์แอนนิเมชั่น / Animation",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/animation.json",
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=93"
