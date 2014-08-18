@@ -34,6 +34,12 @@
             "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=17"
         },
         {
+            "id": 37,
+            "title": "หนังจีนชุด / Chinese Series",
+            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/chinese_dramas.json",
+            "page": "http://www.seesantv.com/seesantv_2014/program_ajax3.php?id=37"
+        },
+        {
             "id": 15,
             "title": "รายการอาหาร / Cooking Shows",
             "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/cooking_shows.json",
