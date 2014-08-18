@@ -2,6 +2,66 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Captain America: The Winter Soldier",
+            "resolver": "default",
+            "location": "http://popcornered.com/media/CaptainAmerica-TheWinterSoldier.mp4",
+            "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_SY317_CR1,0,214,317_AL_.jpg"
+        },
+        {
+            "title": "Blended",
+            "resolver": "movreel",
+            "location": "http://movreel.com/ugo01f1q4kwe",
+            "thumbnail": "http://image.tmdb.org/t/p/original/taSNaMZxG4NaicossbAIuUZZudm.jpg"
+        },
+        {
+            "title": "Neighbors",
+            "resolver": "movreel",
+            "location": "http://movreel.com/z16u12javdlb",
+            "thumbnail": "http://image.tmdb.org/t/p/original/szEl1plce2g3Qol0ui8kFDDNZg2.jpg"
+        },
+        {
+            "title": "The Amazing Spider-Man 2",
+            "resolver": "movreel",
+            "location": "http://movreel.com/7c4ehwha8puz",
+            "thumbnail": "http://image.tmdb.org/t/p/original/wLNUUkxfvH9TbYUX56uJLmoTmCE.jpg"
+        },
+        {
+            "title": "The Amazing Spider-Man 2",
+            "resolver": "movreel",
+            "location": "http://movreel.com/7c4ehwha8puz",
+            "thumbnail": "http://image.tmdb.org/t/p/original/wLNUUkxfvH9TbYUX56uJLmoTmCE.jpg"
+        },
+        {
+            "title": "Transcendence",
+            "resolver": "movreel",
+            "location": "http://movreel.com/n65x3pdjkd6x",
+            "thumbnail": "http://image.tmdb.org/t/p/original/czHHxirQtQceGpkwmoj5i9zJLTO.jpg"
+        },
+        {
+            "title": "Oculus",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3696",
+            "thumbnail": "http://best-pics-hosting.cc/upload/moviebox/1400998198.jpg"
+        },
+        {
+            "title": "Divergent",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3894",
+            "thumbnail": "http://best-pics-hosting.cc/upload/moviebox/1406054168.jpg"
+        },
+        {
+            "title": "The Raid 2",
+            "resolver": "default",
+            "location": "http://popcornered.com/media/TheRaid2.mp4",
+            "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMTg5MTE2NjA4OV5BMl5BanBnXkFtZTgwMTUyMjczMTE@._V1_SX214_AL_.jpg"
+        },
+        {
+            "title": "Need for Speed",
+            "resolver": "movreel",
+            "location": "http://movreel.com/30ka5rvwujl2",
+            "thumbnail": "http://image.tmdb.org/t/p/original/lN0mP3BNaKirkKl6FJ0yL0wmjSJ.jpg"
+        },
+        {
             "title": "The Grand Budapest Hotel",
             "resolver": "movreel",
             "location": "http://movreel.com/2btg4s35d5ok",
