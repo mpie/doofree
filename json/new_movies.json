@@ -5,7 +5,7 @@
             "title": "Maleficent",
             "resolver": "movreel",
             "location": "http://movreel.com/yzjmhpkkle0b",
-            "thumbnail": "https://raw.github.com/mash2k3/MashupArtwork/master/skins/vector/hosts/movreel.png"
+            "thumbnail": "http://image.tmdb.org/t/p/original/uASkjzLc6xk1H7E6r9b5Wpl2gok.jpg"
         },
         {
             "title": "Captain America: The Winter Soldier",
@@ -26,10 +26,10 @@
             "thumbnail": "http://image.tmdb.org/t/p/original/szEl1plce2g3Qol0ui8kFDDNZg2.jpg"
         },
         {
-            "title": "The Amazing Spider-Man 2",
-            "resolver": "movreel",
-            "location": "http://movreel.com/7c4ehwha8puz",
-            "thumbnail": "http://image.tmdb.org/t/p/original/wLNUUkxfvH9TbYUX56uJLmoTmCE.jpg"
+            "title": "Rio 2",
+            "resolver": "firedrive",
+            "location": "http://www.firedrive.com/file/2A83AB58E3EDDCB5",
+            "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMTgzMDczMDYzNl5BMl5BanBnXkFtZTgwMzk2MDIwMTE@._V1_SX214_AL_.jpg"
         },
         {
             "title": "The Amazing Spider-Man 2",
