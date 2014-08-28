@@ -2,9 +2,15 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Godzilla 2014",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3938",
+            "thumbnail": "http://best-pics-hosting.cc/upload/moviebox/1407275669.jpg"
+        },
+        {
             "title": "Maleficent",
-            "resolver": "movreel",
-            "location": "http://movreel.com/yzjmhpkkle0b",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3943",
             "thumbnail": "http://image.tmdb.org/t/p/original/uASkjzLc6xk1H7E6r9b5Wpl2gok.jpg"
         },
         {
