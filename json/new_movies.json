@@ -116,12 +116,6 @@
             "thumbnail": "http://www.cinemablend.com/images/news/41167/_1389972352.jpg"
         },
         {
-            "title": "The Monuments Men",
-            "resolver": "mbox",
-            "location": "http://mobapps.cc/api/serials/get_movie_data?id=3600",
-            "thumbnail": "http://wac.450f.edgecastcdn.net/80450F/screencrush.com/files/2013/08/monuments-men-poster-photo.jpg"
-        },
-        {
             "title": "Pompeii (2014)",
             "resolver": "mbox",
             "location": "http://mobapps.cc/api/serials/get_movie_data?id=3581",
