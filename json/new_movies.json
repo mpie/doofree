@@ -2,9 +2,15 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Maleficent",
+            "resolver": "movreel",
+            "location": "http://movreel.com/yzjmhpkkle0b",
+            "thumbnail": "https://raw.github.com/mash2k3/MashupArtwork/master/skins/vector/hosts/movreel.png"
+        },
+        {
             "title": "Captain America: The Winter Soldier",
-            "resolver": "default",
-            "location": "http://download2152.mediafire.com/tyfp9j8cjo2g/12345678901234/vid.pdf",
+            "resolver": "mightyupload",
+            "location": "http://mightyupload.com/2ag5j8ks933g",
             "thumbnail": "http://ia.media-imdb.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_SY317_CR1,0,214,317_AL_.jpg"
         },
         {
@@ -75,8 +81,8 @@
         },
         {
             "title": "300: Rise of an Empire",
-            "resolver": "movreel",
-            "location": "http://movreel.com/r9i63by7ec9e",
+            "resolver": "mightyupload",
+            "location": "http://mightyupload.com/yv13j3f90oge",
             "thumbnail": "http://collider.com/wp-content/uploads/300-rise-of-an-empire-poster1.jpg"
         },
         {
