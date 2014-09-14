@@ -1,4 +1,25 @@
 #EXTM3U
+#EXTINF:-1,at5
+http://82.94.228.213:1935/broadcast/.../playlist.m3u8
+#EXTINF:-1,AVRO NL
+http://5.135.128.90:15503
+#EXTINF:-1,L1 TV
+rtsp://wm-live.media.dutchview.nl/L1vestream
+#EXTINF:-1,Omroep Flevoland
+rtmp://edge03.streamgate.nl/live/omroepflevoland/mp4:livestream1.mp4
+#EXTINF:-1,RTL 4
+http://5.135.128.90:15516
+#EXTINF:-1,rtl 4NL
+http://5.135.128.90:15516
+#EXTINF:-1,RTV N-H
+http://stream.rtvnh.nl/live/sz=rtvnh.../playlist.m3u8
+#EXTINF:-1,Tv 538 NL
+rtmp://82.201.53.52:80/livestream/tv538
+#EXTINF:-1,vpro NL
+http://5.135.128.90:15501
+#EXTINF:-1,ZK 2 NL
+http://5.135.128.90:15502
+
 #EXTINF:0,XXX 1
 rtmp://lm07.everyon.tv/ptv7/phd59
 #EXTINF:0,XXX 2
@@ -40,62 +61,6 @@ rtmp://lm07.everyon.tv/ptv7/phd1008
 #EXTINF:0,XXX 20
 rtmp://94.242.221.176:1937/live/stream145
 
-#EXTINF:-1,13th Street
-http://195.244.40.203:8001/1:0:16:51E6:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Acht
-http://195.244.40.203:8001/1:0:16:5282:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Cartoon
-http://195.244.40.203:8001/1:0:16:51CC:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Film1 Action
-http://195.244.40.203:8001/1:0:16:51B8:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Film1 Comedy & Kids
-http://195.244.40.203:8001/1:0:16:51AE:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Film1 Premiere HD
-http://195.244.40.203:8001/1:0:19:51DB:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Film1 Sundance
-http://195.244.40.203:8001/1:0:16:51B3:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,FOX Sports EDL 3
-http://195.244.40.203:8001/1:0:16:51C7:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,JIM
-http://195.244.40.203:8001/1:0:16:5276:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,KetOp12
-http://195.244.40.203:8001/1:0:16:5278:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Man-X
-http://195.244.40.203:8001/1:0:16:5284:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,MTV NL
-http://195.244.40.203:8001/1:0:16:51D3:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,NGC HD
-http://195.244.40.203:8001/1:0:19:51E5:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,NostalgieNet
-http://195.244.40.203:8001/1:0:16:51DC:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Penthouse
-http://195.244.40.203:8001/1:0:16:51B5:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Penthouse CZ
-http://195.244.40.203:8001/1:0:16:51DD:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Sport1 Golf
-http://195.244.40.203:8001/1:0:16:51C2:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Sport1 SELECT HD
-http://195.244.40.203:8001/1:0:19:51E0:C96:3:EB0000:0:0:0:
-
-#EXTINF:-1,Sport1 Voetbal
-http://195.244.40.203:8001/1:0:16:51BD:C96:3:EB0000:0:0:0:
 
 #EXTINF:-1,XXX VODX BPV 2
 http://cdn.bestpornvids.com/11200_11399/11311/2/tubeclips/HBP/custom/HBP_98044_750.flv
