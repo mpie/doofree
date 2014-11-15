@@ -2,6 +2,12 @@
     "isFolder": false,
     "list": [
         {
+            "title": "Dawn of the Planet of the Apes 2014",
+            "resolver": "mbox",
+            "location": "http://mobapps.cc/api/serials/get_movie_data?id=4123",
+            "thumbnail": "http://best-pics-hosting.cc/upload/moviebox/1412882857.jpg"
+        },
+        {
             "title": "Godzilla 2014",
             "resolver": "movreel",
             "location": "http://movreel.com/yc3u0j4wpnie.html",
