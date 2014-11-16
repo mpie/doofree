@@ -1,16 +1,6 @@
 {
     "Home": [
         {
-            "id": 1,
-            "title": "New Movies",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/new_movies.json"
-        },
-        {
-            "id": 2,
-            "title": "Tv Series",
-            "location": "https://raw.githubusercontent.com/mpie/doofree/master/json/new_series.json"
-        },
-        {
             "id": 3,
             "title": "Live TV",
             "location": "https://raw.github.com/mpie/doofree/master/json/live_tv.json"
