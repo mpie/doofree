@@ -1,8 +1,15 @@
 #EXTM3U
 #EXTINF:-1 group-title="USA Live Tv", HBO
 rtmp://rtmp.zerocast.tv:1935/live playpath=qKmzUdRhBM73njBBDFyL swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf live=1 flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv
-#EXTINF:-1 group-title="USA Live Tv", CW USA
-rtmp://rtmp.zerocast.tv:1935/live/ playpath=IWSyIjvWgHRCMM7MEJoZ swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf live=1 flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv
+
+#EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="USA/FTV.png", Fashion TV.
+http://hls.novotelecom.ru/streaming/fashion/tvrec/playlist.m3u8?b?b*t$
+
+#EXTINF:-1 tvg-logo="Bio.png" group-title="Documentries", Fyi HD
+http://202.75.23.36:1400/live/ch46/03.m3u8?Vd?u#bt!25
+
+#EXTINF:-1,First Music HD
+rtmp://109.239.142.62/live/livestream3
 
 
 #EXTINF:-1,AVRO NL
