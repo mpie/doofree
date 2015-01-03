@@ -10,6 +10,12 @@ http://202.75.23.36:1400/live/ch46/03.m3u8?Vd?u#bt!25
 
 #EXTINF:-1,First Music HD
 rtmp://109.239.142.62/live/livestream3
+#EXTINF:-1 tvg-id="" tvg-logo="vevotv.png",VEVO TV 1
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/appleman.m3u8|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-id="" tvg-logo="vevotv.png",VEVO TV 2
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/appleman.m3u8|X-Forwarded-For=91.63.136.21
+#EXTINF:-1 tvg-id="" tvg-logo="vevotv.png",VEVO TV 3
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/appleman.m3u8|X-Forwarded-For=91.63.136.21
 
 
 #EXTINF:-1,AVRO NL
