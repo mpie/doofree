@@ -1,0 +1,17 @@
+{
+  "isFolder": false,
+  "list": [
+    {
+      "title": "24 Kitchen",
+      "thumbnail": "http://www.jagledam.com/logo/logo24kitchen.jpg",
+      "resolver": "default",
+      "location": "http://cdn-02.sdn.si/24kitchen/24kitchen.m3u8"
+    },
+    {
+      "title": "Cartoon Network",
+      "thumbnail": "http://www.jagledam.com//logo/logocartoonnet.jpg",
+      "resolver": "default",
+      "location": "http://cdn-02.sdn.si/cartoonnetwork/cartoonnetwork.m3u8"
+    }
+  ]
+}
