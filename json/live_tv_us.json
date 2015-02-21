@@ -56,12 +56,6 @@
       "location": "http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8"
     },
     {
-      "title": "NPO 1 Test",
-      "thumbnail": "http://img4.wikia.nocookie.net/__cb20140711230235/logopedia/images/7/72/Npo1.png",
-      "resolver": "default",
-      "location": "http://livestreams.omroep.nl/live/npo/tvlive/ned1/ned1.isml/ned1.m3u8"
-    },
-    {
       "title": "[COLOR orange]Experimental. More channels coming soon :)[/COLOR]",
       "thumbnail": "",
       "resolver": "default",
