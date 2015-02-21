@@ -8,8 +8,14 @@
       "location": "http://cdn-02.sdn.si/24kitchen/24kitchen.m3u8"
     },
     {
+      "title": "Boomerang",
+      "thumbnail": "http://www.jagledam.com/logo/logoboomerang.jpg",
+      "resolver": "default",
+      "location": "http://cdn-02.sdn.si/boomerang/boomerang.m3u8"
+    },
+    {
       "title": "Cartoon Network",
-      "thumbnail": "http://www.jagledam.com//logo/logocartoonnet.jpg",
+      "thumbnail": "http://www.jagledam.com/logo/logocartoonnet.jpg",
       "resolver": "default",
       "location": "http://cdn-02.sdn.si/cartoonnetwork/cartoonnetwork.m3u8"
     }
