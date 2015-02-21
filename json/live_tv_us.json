@@ -20,6 +20,42 @@
       "location": "http://cdn-02.sdn.si/cartoonnetwork/cartoonnetwork.m3u8"
     },
     {
+      "title": "Disney XD",
+      "thumbnail": "http://www.jagledam.com/logo/logodisneyxd.jpg",
+      "resolver": "default",
+      "location": "http://cdn-02.sdn.si/disneyxd/disneyxd.m3u8"
+    },
+    {
+      "title": "Eurosport",
+      "thumbnail": "http://www.jagledam.com/logo/logoeurosport.jpg",
+      "resolver": "default",
+      "location": "http://cdn-02.sdn.si/eurosport/eurosport.m3u8"
+    },
+    {
+      "title": "Nat Geo Wild",
+      "thumbnail": "http://www.jagledam.com/logo/logonatgeowild.jpg",
+      "resolver": "default",
+      "location": "http://37.48.118.32/live/natgeow.stream/playlist.m3u8"
+    },
+    {
+      "title": "VEVO 1",
+      "thumbnail": "http://www.videostatic.com/sites/default/files/styles/post/public/vevotv.jpg",
+      "resolver": "default",
+      "location": "http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8"
+    },
+    {
+      "title": "VEVO 2",
+      "thumbnail": "http://www.videostatic.com/sites/default/files/styles/post/public/vevotv.jpg",
+      "resolver": "default",
+      "location": "http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8"
+    },
+    {
+      "title": "VEVO 3",
+      "thumbnail": "http://www.videostatic.com/sites/default/files/styles/post/public/vevotv.jpg",
+      "resolver": "default",
+      "location": "http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8"
+    },
+    {
       "title": "[COLOR orange]Experimental. More channels coming soon :)[/COLOR]",
       "thumbnail": "",
       "resolver": "default",
