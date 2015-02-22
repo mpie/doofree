@@ -38,6 +38,12 @@
       "location": "http://37.48.118.32/live/natgeow.stream/playlist.m3u8"
     },
     {
+      "title": "Travel Channel",
+      "thumbnail": "",
+      "resolver": "default",
+      "location": "http://cdn.live.simplestream.com/5HPRNXTMZ1XEKVAK676Z/3/playlist-limelight.m3u8"
+    },
+    {
       "title": "VEVO 1",
       "thumbnail": "http://www.videostatic.com/sites/default/files/styles/post/public/vevotv.jpg",
       "resolver": "default",
