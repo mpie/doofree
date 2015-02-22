@@ -41,7 +41,7 @@
       "title": "Travel Channel",
       "thumbnail": "",
       "resolver": "default",
-      "location": "http://cdn.live.simplestream.com/5HPRNXTMZ1XEKVAK676Z/3/playlist-limelight.m3u8"
+      "location": "http://142.4.216.60:1935/edge/_definst_/4aiufk0o430qt0d/playlist.m3u8"
     },
     {
       "title": "VEVO 1",
