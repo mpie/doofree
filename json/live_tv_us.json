@@ -32,6 +32,11 @@
       "location": "http://cdn-02.sdn.si/eurosport/eurosport.m3u8"
     },
     {
+      "title": "Fashion TV",
+      "thumbnail": "http://1.bp.blogspot.com/_AcBUSVxs82w/SxSOUT2R26I/AAAAAAAAW8Q/C5Q0F7EOwk4/s400/Fashion_TV.gif",
+      "resolver": "default",
+      "location": "http://hls.novotelecom.ru/streaming/fashion/tvrec/playlist.m3u8?b?b*t$"
+    {
       "title": "Nat Geo Wild",
       "thumbnail": "http://www.jagledam.com/logo/logonatgeowild.jpg",
       "resolver": "default",
