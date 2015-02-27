@@ -14,6 +14,12 @@
       "location": "rtmp://rtmp.zerocast.tv:1935/live playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=700&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player.swf live=true"
     },
     {
+      "title": "AMC",
+      "thumbnail": "http://zerocast.tv/channels/img/amc.png",
+      "resolver": "default",
+      "location": "rtmpe://46.246.124.88/live playpath=amcusa_usa swfUrl=http://ukcast.co/player//player.swf live=1 pageUrl=http://www.ukcast.co/ token=%ZZri(nKa@#Z"
+    },
+    {
       "title": "Boomerang",
       "thumbnail": "http://www.jagledam.com/logo/logoboomerang.jpg",
       "resolver": "default",
