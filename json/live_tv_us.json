@@ -8,6 +8,12 @@
       "location": "http://cdn-02.sdn.si/24kitchen/24kitchen.m3u8"
     },
     {
+      "title": "ABC",
+      "thumbnail": "rtmp://rtmp.zerocast.tv/redirect/rGCi7bg0Qxvs8q7Sl13l",
+      "resolver": "default",
+      "location": "rtmp://rtmp.zerocast.tv/redirect/rGCi7bg0Qxvs8q7Sl13l playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=700&height=480&autostart=true&strech= swfUrl=rGCi7bg0Qxvs8q7Sl13l live=true"
+    },
+    {
       "title": "Boomerang",
       "thumbnail": "http://www.jagledam.com/logo/logoboomerang.jpg",
       "resolver": "default",
