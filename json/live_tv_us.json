@@ -11,7 +11,7 @@
       "title": "ABC",
       "thumbnail": "http://zerocast.tv/channels/img/abc.png",
       "resolver": "default",
-      "location": "rtmp://rtmp.zerocast.tv/live playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=700&height=480&autostart=true&strech= swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=true"
+      "location": "rtmp://rtmp.zerocast.tv/redirect playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=700&height=480&autostart=true&strech= swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=true"
     },
     {
       "title": "Boomerang",
