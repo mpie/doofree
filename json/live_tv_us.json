@@ -17,7 +17,7 @@
       "title": "AMC",
       "thumbnail": "http://zerocast.tv/channels/img/amc.png",
       "resolver": "default",
-      "location": "rtmpe://46.246.124.88/live playpath=amcusa_usa swfUrl=http://ukcast.co/player//player.swf live=1 pageUrl=http://www.ukcast.co/ token=%ZZri(nKa@#Z"
+      "location": "rtmp://rtmp.zerocast.tv:1935/live playPath=TfRQx7deUAuncJwM047m swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://zerocast.tv/ token=8964316ec8772dfa"
     },
     {
       "title": "Boomerang",
