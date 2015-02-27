@@ -11,7 +11,7 @@
       "title": "ABC",
       "thumbnail": "http://zerocast.tv/channels/img/abc.png",
       "resolver": "default",
-      "location": "rtmp://rtmp.zerocast.tv:1935/live playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=true timeout=15 token=8964316ec8772dfa"
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
       "title": "AMC",
