@@ -38,6 +38,12 @@
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=Ger61uLQ4fedzvjRjrB7 pageUrl=http://zerocast.tv/embed.php?a=338&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
+      "title": "CW",
+      "thumbnail": "http://zerocast.tv/channels/img/the cw.jpg",
+      "resolver": "default",
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=IWSyIjvWgHRCMM7MEJoZ pageUrl=http://zerocast.tv/embed.php?a=8&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+    },
+    {
       "title": "Disney XD",
       "thumbnail": "http://www.jagledam.com/logo/logodisneyxd.jpg",
       "resolver": "default",
@@ -54,6 +60,18 @@
       "thumbnail": "http://1.bp.blogspot.com/_AcBUSVxs82w/SxSOUT2R26I/AAAAAAAAW8Q/C5Q0F7EOwk4/s400/Fashion_TV.gif",
       "resolver": "default",
       "location": "http://hls.novotelecom.ru/streaming/fashion/tvrec/playlist.m3u8?b?b*t$"
+    },
+    {
+      "title": "FOX",
+      "thumbnail": "http://zerocast.tv/channels/img/fox-tv.jpg",
+      "resolver": "default",
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=9pxGCtP3aEnJYgoBFFH8 pageUrl=http://zerocast.tv/embed.php?a=305&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+    },
+    {
+      "title": "HBO",
+      "thumbnail": "http://zerocast.tv/channels/img/hbo.png",
+      "resolver": "default",
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=qKmzUdRhBM73njBBDFyL pageUrl=http://zerocast.tv/embed.php?a=1482&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
       "title": "Nat Geo Wild",
