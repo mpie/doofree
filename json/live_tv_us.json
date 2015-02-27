@@ -17,7 +17,7 @@
       "title": "AMC",
       "thumbnail": "http://zerocast.tv/channels/img/amc.jpg",
       "resolver": "default",
-      "location": "rtmp://rtmp.zerocast.tv:1935/live playPath=TfRQx7deUAuncJwM047m swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf pageUrl=http://zerocast.tv/embed.php?a=237&id=&width=640&height=480&autostart=true&strech= token=OOG17t.x#K9Vh#|"
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=TfRQx7deUAuncJwM047m pageUrl=http://zerocast.tv/embed.php?a=237&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
       "title": "Boomerang",
