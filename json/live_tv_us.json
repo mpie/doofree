@@ -32,6 +32,12 @@
       "location": "http://cdn-02.sdn.si/cartoonnetwork/cartoonnetwork.m3u8"
     },
     {
+      "title": "CBS",
+      "thumbnail": "http://zerocast.tv/channels/img/cbs-tv.jpg",
+      "resolver": "default",
+      "location": "rtmpe://207.244.74.135:1935/goLive playPath=Ger61uLQ4fedzvjRjrB7 pageUrl=http://zerocast.tv/embed.php?a=338&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+    },
+    {
       "title": "Disney XD",
       "thumbnail": "http://www.jagledam.com/logo/logodisneyxd.jpg",
       "resolver": "default",
