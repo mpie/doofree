@@ -50,6 +50,12 @@
       "location": "http://cdn-02.sdn.si/disneyxd/disneyxd.m3u8"
     },
     {
+      "title": "ESPN Encore",
+      "thumbnail": "http://www.5thround.com/wp-content/uploads/2009/07/espn.jpg",
+      "resolver": "default",
+      "location": "http://pac12hd2-lh.akamaihd.net/i/p12wash_delivery@132841/index_4728_av-p.m3u8?sd=10&rebase=on"
+    },
+    {
       "title": "Eurosport",
       "thumbnail": "http://www.jagledam.com/logo/logoeurosport.jpg",
       "resolver": "default",
@@ -68,7 +74,7 @@
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=9pxGCtP3aEnJYgoBFFH8 pageUrl=http://zerocast.tv/embed.php?a=305&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
-      "title": "FOX SPORTS UK",
+      "title": "FOX Sports UK",
       "thumbnail": "http://www.foxsportsasia.com/assets/images/FOXSports-logo.png",
       "resolver": "default",
       "location": "http://foxsportshdhls-lh.akamaihd.net/i/fsnewshls_0@136427/index_2128_av-p.m3u8?sd=10&rebase=on"
