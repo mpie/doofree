@@ -68,6 +68,12 @@
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=9pxGCtP3aEnJYgoBFFH8 pageUrl=http://zerocast.tv/embed.php?a=305&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
+      "title": "FOX SPORTS UK",
+      "thumbnail": "http://www.foxsportsasia.com/assets/images/FOXSports-logo.png",
+      "resolver": "default",
+      "location": "http://foxsportshdhls-lh.akamaihd.net/i/fsnewshls_0@136427/index_2128_av-p.m3u8?sd=10&rebase=on"
+    },
+    {
       "title": "HBO",
       "thumbnail": "http://zerocast.tv/channels/img/hbo.png",
       "resolver": "default",
