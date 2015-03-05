@@ -2,12 +2,6 @@
   "isFolder": false,
   "list": [
     {
-      "title": "Test",
-      "thumbnail": "",
-      "resolver": "default",
-      "location": "plugin://plugin.video.p2p-streams/?url=4cd6dcc8cf65c49d8ee338255b3400f0283d5455&mode=1&name=HBO+2"
-    },
-    {
       "title": "24 Kitchen",
       "thumbnail": "http://www.jagledam.com/logo/logo24kitchen.jpg",
       "resolver": "default",
