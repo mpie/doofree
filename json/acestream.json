@@ -1,0 +1,83 @@
+{
+    "isFolder": false,
+    "list": [
+        {
+            "title": "[COLOR orange]Follow below steps. Only have to do this once[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 1: Click on one of the channel and install the P2P addon[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 2: Open P2P addon in VIDEO -> Addons -> P2P Stream[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 3: Confirm all the dialogs. Do not use external player.[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "HBO 2",
+            "thumbnail": "http://www.gmkfreelogos.com/logos/H/img/HBO_2.gif",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=4cd6dcc8cf65c49d8ee338255b3400f0283d5455&mode=1&name=HBO+2"
+        },
+        {
+            "title": "FOX Sports 2 NL",
+            "thumbnail": "http://cdn.marketplaceimages.windowsphone.com/v8/images/174e6d02-6d55-4731-ac8b-39f7d38cee52?imageType=ws_icon_large",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=9f69c544d2b91e1beee94972bc943ce9fe1a40f0&mode=1&name=FOX+sports+2"
+        },
+        {
+            "title": "Sky Sports 1",
+            "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=e6aaeb0c93c291a4cfe2c04d05c6b1e906f54955&mode=1&name=Sky+Sports+1"
+        },
+        {
+            "title": "Sky Sports 2",
+            "thumbnail": "http://www.onlinetvmania.com/images/skysports2.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=c36cfe788f185f7e7238b021e738951628336cfe&mode=1&name=Sky+Sports+2"
+        },
+        {
+            "title": "Sky Sports 3",
+            "thumbnail": "http://www.onlinetvmania.com/images/skysports3.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=7f480a00ac478b65fb75cfdde76ef38ee151b887&mode=1&name=Sky+Sports+3"
+        },
+        {
+            "title": "Sky Sports 4",
+            "thumbnail": "http://www.onlinetvmania.com/images/skysports4.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=27b91da9e17e32aca57f3b0124683fffe30febc6&mode=1&name=Sky+Sports+4"
+        },
+        {
+            "title": "Sky Sports 5",
+            "thumbnail": "http://uk-tv.in.th/wp-content/uploads/2014/09/sks5.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=e72bb7060e8e4780e65ed45e81bf09bf352f496b&mode=1&name=Sky+Sports+5"
+        },
+        {
+            "title": "Sky Sports F1",
+            "thumbnail": "http://uk-tv.in.th/wp-content/uploads/2014/07/1306sksf1-enc18.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=2dff503259045e4d119e6e972a3db8521c47198a&mode=1&name=Sky+Sports+F1"
+        },
+        {
+            "title": "Test",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=9326b57ca26239e9111c1c16510f083d14f58d76&mode=1&name=Arenavision+3"
+        }
+    ]
+}
