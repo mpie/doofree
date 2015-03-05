@@ -20,10 +20,10 @@
             "location": "#"
         },
         {
-            "title": "FOX",
-            "thumbnail": "http://seeklogo.com/images/F/Fox-logo-F6A19BA40C-seeklogo.com.gif",
+            "title": "HBO",
+            "thumbnail": "",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=3d9289ad8d3d2fb83c153dc82c3dfa57ff329be9&mode=1&name=FOX"
+            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/75086&mode=1&name=HBO"
         },
         {
             "title": "HBO 2",
@@ -96,12 +96,6 @@
             "thumbnail": "http://bursauyduservisi.com/index_dosyalar/Hustler%20HD.png",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
-        },
-        {
-            "title": "Redlight HD",
-            "thumbnail": "http://hdmedia.com.ua/image/cache/data/tovari/sputnikovoetv/karta/REDLIGHT_HD-200x200.jpg",
-            "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=85b3e33ebb1370bfb41a2b3615e58f8e4fb5a371c&mode=1&name=Redlight+HD"
         }
     ]
 }
