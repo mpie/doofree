@@ -2,6 +2,12 @@
   "isFolder": false,
   "list": [
     {
+      "title": "Test",
+      "thumbnail": "",
+      "resolver": "default",
+      "location": "acestream://420ad279e44eef83b36673f4352373869e86a322"
+    },
+    {
       "title": "24 Kitchen",
       "thumbnail": "http://www.jagledam.com/logo/logo24kitchen.jpg",
       "resolver": "default",
