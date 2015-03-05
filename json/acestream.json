@@ -68,10 +68,40 @@
             "location": "plugin://plugin.video.p2p-streams/?url=2dff503259045e4d119e6e972a3db8521c47198a&mode=1&name=Sky+Sports+F1"
         },
         {
-            "title": "Test",
+            "title": "Travel Channel",
+            "thumbnail": "https://pmcdeadline2.files.wordpress.com/2013/04/travelchannel_logo__130423191643-200x200.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=0aed497cfec334de38937ca34be73e1c7b16308c&mode=1&name=Travel+Channel"
+        },
+        {
+            "title": "[COLOR red]ADULT CONTENT BELOW!!![/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "Hustler Blue",
+            "thumbnail": "https://mediaportal-swiss-rtv-logos.googlecode.com/svn/trunk/TV/TVL_1-1_Classic_Clear/Blue%20Hustler.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=914ef52108038da793302fdeb6f55a708cd42ea1&mode=1&name=Hustler+Blue"
+        },
+        {
+            "title": "Hustler HD",
+            "thumbnail": "http://bursauyduservisi.com/index_dosyalar/Hustler%20HD.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
+        },
+        {
+            "title": "Hustler HD",
             "thumbnail": "",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
-        }
+        },
+        {
+            "title": "Hustler TV",
+            "thumbnail": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0025/4834/brand.gif",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=2ea3eb42169b7ad3c0ffbb118c0c2ba759e99b7d&mode=1&name=Hustler+TV"
+        },
     ]
 }
