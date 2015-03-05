@@ -92,16 +92,10 @@
             "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
         },
         {
-            "title": "Hustler TV",
-            "thumbnail": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0025/4834/brand.gif",
+            "title": "Playboy TV",
+            "thumbnail": "http://www.gmkfreelogos.com/logos/P/img/Playboy_TV.gif",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=2ea3eb42169b7ad3c0ffbb118c0c2ba759e99b7d&mode=1&name=Hustler+TV"
-        },
-        {
-            "title": "Penthouse TV",
-            "thumbnail": "https://justinmarroquin.files.wordpress.com/2013/11/penthouse-mag-logo2.jpg?w=200&h=200",
-            "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=a2e7a10649b28b154381c50a093a6fc5b797d3d5&mode=1&name=Penthouse+TV"
+            "location": "plugin://plugin.video.p2p-streams/?url=f60977c0bd18b5025c2357e558a6dcdd4970393c&mode=1&name=Playboy+TV"
         }
     ]
 }
