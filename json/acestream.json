@@ -86,6 +86,24 @@
             "location": "#"
         },
         {
+            "title": "Brazzers TV Europe",
+            "thumbnail": "http://www.orangeinfo.fr/wp-content/uploads/2014/01/Brazzers-TV-Europe-logo-carr%C3%A9-200x200.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=469529c3d932a98d375d1a0f9c999dc201a03e76&mode=1&name=Brazzers+TV+Europe"
+        },
+        {
+            "title": "Eroxx HD",
+            "thumbnail": "http://www.kromsat.sk/eroxx_box_hd.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=469529c3d932a98d375d1a0f9c999dc201a03e76&mode=1&name=Eroxx+HD"
+        },
+        {
+            "title": "Dorcel HD",
+            "thumbnail": "https://mediaportal-swiss-rtv-logos.googlecode.com/svn/trunk/TV/TVL_1-1_Classic_Clear/Dorcel%20TV.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=cac07720862e59779182a770c583831e722c0e79&mode=1&name=Dorcel+HD"
+        },
+        {
             "title": "Hustler Blue",
             "thumbnail": "https://mediaportal-swiss-rtv-logos.googlecode.com/svn/trunk/TV/TVL_1-1_Classic_Clear/Blue%20Hustler.png",
             "resolver": "default",
@@ -96,6 +114,30 @@
             "thumbnail": "http://bursauyduservisi.com/index_dosyalar/Hustler%20HD.png",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
+        },
+        {
+            "title": "Penthouse HD",
+            "thumbnail": "http://www.tvline.spb.ru/images/PH_HD.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=dd95cbc9f722a58428612123e88969aa004cbb17&mode=1&name=Penthouse+HD"
+        },
+        {
+            "title": "Playboy TV",
+            "thumbnail": "http://www.gmkfreelogos.com/logos/P/img/Playboy_TV.gif",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=1ed612c06af7f576c8aa585601e944a91d566466&mode=1&name=Playboy+TV"
+        },
+        {
+            "title": "Private TV",
+            "thumbnail": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0012/6041/brand.gif",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=c83e40572734fd0837cf012e780cda96f155e596&mode=1&name=Private+TV"
+        },
+        {
+            "title": "Redlight HD",
+            "thumbnail": "http://www.turbomaxx.co.uk/media/catalog/product/cache/2/image/650x/040ec09b1e35df139433887a97daa66f/r/e/redlight_hd_logo-1.png",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=ea23638e6de7662819d75044fdac6fe3aee2e274&mode=1&name=Redlight+HD"
         }
     ]
 }
