@@ -102,6 +102,6 @@
             "thumbnail": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0025/4834/brand.gif",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=2ea3eb42169b7ad3c0ffbb118c0c2ba759e99b7d&mode=1&name=Hustler+TV"
-        },
+        }
     ]
 }
