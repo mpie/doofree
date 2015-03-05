@@ -23,7 +23,7 @@
             "title": "HBO",
             "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/148881&mode=2&name=HBO"
+            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/148881&mode=1&name=HBO"
         },
         {
             "title": "HBO 2",
