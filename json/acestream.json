@@ -20,10 +20,10 @@
             "location": "#"
         },
         {
-            "title": "HBO",
-            "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
+            "title": "FOX",
+            "thumbnail": "http://seeklogo.com/images/F/Fox-logo-F6A19BA40C-seeklogo.com.gif",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/148881&mode=1&name=HBO"
+            "location": "plugin://plugin.video.p2p-streams/?url=3d9289ad8d3d2fb83c153dc82c3dfa57ff329be9&mode=1&name=FOX"
         },
         {
             "title": "HBO 2",
@@ -98,10 +98,10 @@
             "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
         },
         {
-            "title": "Playboy TV",
-            "thumbnail": "http://www.gmkfreelogos.com/logos/P/img/Playboy_TV.gif",
+            "title": "Redlight HD",
+            "thumbnail": "http://hdmedia.com.ua/image/cache/data/tovari/sputnikovoetv/karta/REDLIGHT_HD-200x200.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=f60977c0bd18b5025c2357e558a6dcdd4970393c&mode=1&name=Playboy+TV"
+            "location": "plugin://plugin.video.p2p-streams/?url=85b3e33ebb1370bfb41a2b3615e58f8e4fb5a371c&mode=1&name=Redlight+HD"
         }
     ]
 }
