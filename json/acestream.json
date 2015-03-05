@@ -14,13 +14,7 @@
             "location": "#"
         },
         {
-            "title": "[COLOR orange]Step 2: Open P2P addon in VIDEO -> Addons -> P2P Stream[/COLOR]",
-            "thumbnail": "",
-            "resolver": "default",
-            "location": "#"
-        },
-        {
-            "title": "[COLOR orange]Step 3: Confirm all the dialogs. Do not use external player.[/COLOR]",
+            "title": "[COLOR orange]Step 2: Once installed, choose your channel :)[/COLOR]",
             "thumbnail": "",
             "resolver": "default",
             "location": "#"
@@ -77,7 +71,7 @@
             "title": "Test",
             "thumbnail": "",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=9326b57ca26239e9111c1c16510f083d14f58d76&mode=1&name=Arenavision+3"
+            "location": "plugin://plugin.video.p2p-streams/?url=3a6bc163e779a2aec18de3f5a175be29881b2ea3&mode=1&name=Hustler+HD"
         }
     ]
 }
