@@ -20,6 +20,12 @@
             "location": "#"
         },
         {
+            "title": "HBO",
+            "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/148881&mode=2&name=HBO"
+        },
+        {
             "title": "HBO 2",
             "thumbnail": "http://www.gmkfreelogos.com/logos/H/img/HBO_2.gif",
             "resolver": "default",
@@ -36,12 +42,6 @@
             "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=e6aaeb0c93c291a4cfe2c04d05c6b1e906f54955&mode=1&name=Sky+Sports+1"
-        },
-        {
-            "title": "SK 3",
-            "thumbnail": "http://www.onlinetvmania.com/images/skysports1.jpg",
-            "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=344b3f00db6423245f73876bf687dbade8029838&mode=1&name=SK+3"
         },
         {
             "title": "Sky Sports 2",
