@@ -20,10 +20,10 @@
             "location": "#"
         },
         {
-            "title": "HBO",
-            "thumbnail": "",
+            "title": "Bein Sports 1",
+            "thumbnail": "http://www.d7ika.ma/wp-content/uploads/beinsport1_logo.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/75086&mode=1&name=HBO"
+            "location": "plugin://plugin.video.p2p-streams/?url=4cfa76f8d1a0ae2cc4d9130d253d91a2fd0000d6&mode=1&name=Bein+Sports+1"
         },
         {
             "title": "HBO 2",
