@@ -104,6 +104,12 @@
       "location": "http://37.48.118.32/live/natgeow.stream/playlist.m3u8"
     },
     {
+      "title": "Sky Sports F1",
+      "thumbnail": "http://uk-tv.in.th/wp-content/uploads/2014/07/1306sksf1-enc18.png",
+      "resolver": "default",
+      "location": "rtmp://31.220.0.195:80/live/ playpath=skyf1 token=%Zrey(nKa@#Z swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://reytv.co/ AnisotropicTV"
+    },
+    {
       "title": "Travel Channel",
       "thumbnail": "",
       "resolver": "default",
