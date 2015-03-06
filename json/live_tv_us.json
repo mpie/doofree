@@ -20,6 +20,12 @@
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=TfRQx7deUAuncJwM047m pageUrl=http://zerocast.tv/embed.php?a=237&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
+      "title": "AMC HD",
+      "thumbnail": "http://zerocast.tv/channels/img/amc.jpg",
+      "resolver": "default",
+      "location": "http://142.4.216.60:1935/edge/_definst_/z4cxm7zlfyqs65m/playlist.m3u8?wowzasessionid=1419880157&xs=_we_N3BjdG1yZTB6ZndzYzI0fDE0MTk5MTYxNTd8NzIuMjcuMjE0LjMzfDU0YTFhNmRkY2JjNDd8ZjlhZTYzZWQyNDg5NTYyYmE2OWM5ODcyZWMxOTQ0M2RkYjA4YzBmMg"
+    },
+    {
       "title": "Boomerang",
       "thumbnail": "http://www.jagledam.com/logo/logoboomerang.jpg",
       "resolver": "default",
@@ -68,10 +74,10 @@
       "location": "http://hls.novotelecom.ru/streaming/fashion/tvrec/playlist.m3u8?b?b*t$"
     },
     {
-      "title": "FOX",
+      "title": "FOX Movies",
       "thumbnail": "http://zerocast.tv/channels/img/fox-tv.jpg",
       "resolver": "default",
-      "location": "rtmpe://207.244.74.135:1935/goLive playPath=9pxGCtP3aEnJYgoBFFH8 pageUrl=http://zerocast.tv/embed.php?a=305&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+      "location": "rtmp://162.212.176.107:1935/fox_movies?v=a2V5bGl2ZTgzLTQ1LTEwMC00MjIwMTQtMTItMDMtMTYtMzUtMzM= playpath=globaltv-fox_movies.stream swfUrl= live=1 pageUrl="
     },
     {
       "title": "FOX Sports UK",
@@ -107,7 +113,13 @@
       "title": "Sky Sports F1",
       "thumbnail": "http://uk-tv.in.th/wp-content/uploads/2014/07/1306sksf1-enc18.png",
       "resolver": "default",
-      "location": "rtmp://31.220.0.195:80/live/ playpath=skyf1 token=%Zrey(nKa@#Z swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://reytv.co/ AnisotropicTV"
+      "location": "rtmp://80.82.64.140:443/liverepeater playpath=22 pageUrl=http://popeoftheplayers.eu/ token=#atd%#$ZH"
+    },
+    {
+      "title": "SYFY",
+      "thumbnail": "http://www.prnewschannel.com/wp-content/uploads/2015/02/syfy-logo.jpg",
+      "resolver": "default",
+      "location": "http://142.4.216.60:1935/edge/_definst_/x7uii7mll2b7lh4/playlist.m3u8?wowzasessionid=1419878403&xs=_we_b2VwejlxNW9pdmZsYmN3fDE0MTk5MTQ0MDN8fDU0YTFhMDAzNTYyYWF8MGU5MmY3YWI2ZmZiM2E2ZjMwNDNmYWY1MjdhMjE4ZTYyNjM4N2I3Zg"
     },
     {
       "title": "Travel Channel",
