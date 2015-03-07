@@ -2,19 +2,37 @@
     "isFolder": false,
     "list": [
         {
-            "title": "[COLOR orange]Follow below steps. Only have to do this once[/COLOR]",
+            "title": "[COLOR orange]Follow below steps if this is your first time run.[/COLOR]",
             "thumbnail": "",
             "resolver": "default",
             "location": "#"
         },
         {
-            "title": "[COLOR orange]Step 1: Click on one of the channel and install the P2P addon[/COLOR]",
+            "title": "[COLOR orange]Step 1: Restart kodi.[/COLOR]",
             "thumbnail": "",
             "resolver": "default",
             "location": "#"
         },
         {
-            "title": "[COLOR orange]Step 2: Once installed, choose your channel :)[/COLOR]",
+            "title": "[COLOR orange]Step 2: Click on one of the channel and install the P2P addon from the popup.[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 3: Once installed, go to video -> addons -> p2p-streams[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 4: Wait till the install of the modules is complete.[/COLOR]",
+            "thumbnail": "",
+            "resolver": "default",
+            "location": "#"
+        },
+        {
+            "title": "[COLOR orange]Step 5: Come back to this list and enjoy your show.[/COLOR]",
             "thumbnail": "",
             "resolver": "default",
             "location": "#"
