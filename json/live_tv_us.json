@@ -101,7 +101,7 @@
       "title": "HBO",
       "thumbnail": "http://zerocast.tv/channels/img/hbo.png",
       "resolver": "default",
-      "location": "rtmpe://207.244.74.135:1935/goLive playPath=qKmzUdRhBM73njBBDFyL pageUrl=http://zerocast.tv/embed.php?a=1482&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+      "location": "rtmp://178.162.199.141/iguide playpath=0bf02qe6msgtu4s swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD"
     },
     {
       "title": "Nat Geo Wild",
