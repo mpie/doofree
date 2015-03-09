@@ -122,14 +122,20 @@
       "location": "http://142.4.216.60:1935/edge/_definst_/x7uii7mll2b7lh4/playlist.m3u8?wowzasessionid=1419878403&xs=_we_b2VwejlxNW9pdmZsYmN3fDE0MTk5MTQ0MDN8fDU0YTFhMDAzNTYyYWF8MGU5MmY3YWI2ZmZiM2E2ZjMwNDNmYWY1MjdhMjE4ZTYyNjM4N2I3Zg"
     },
     {
-      "title": "Travel Channel",
-      "thumbnail": "",
+      "title": "Thai channel 8",
+      "thumbnail": "http://cdn2.dootvimage.com/images/live_channels_product/logo_8.png",
       "resolver": "default",
       "location": "http://wdcorigin00.malimarcdn.com:1935/wdcorigin00thai/_definst_/ch8.stream/playlist.m3u8"
     },
     {
+      "title": "Travel Channel",
+      "thumbnail": "http://img2.wikia.nocookie.net/__cb20130327194656/logopedia/images/8/82/Travel_Channel_International.svg",
+      "resolver": "default",
+      "location": "http://142.4.216.60:1935/edge/_definst_/4aiufk0o430qt0d/playlist.m3u8?wowzasessionid=1419877887&xs=_we_MWZ2dW9rMm55NGp0bWdxfDE0MTk5MTM4ODd8fDU0YTE5ZGZmMjgwNTR8MjZlNDRkMjc2ZDFiZDExODcyM2UyMGQ2OGZlNTFkNmI3NDA1NmQzZA"
+    },
+    {
       "title": "Victorias Secret",
-      "thumbnail": "",
+      "thumbnail": "http://www.myfreeproductsamples.com/wp-content/uploads/2015/01/logo-Victoria_s_Secret.png",
       "resolver": "default",
       "location": "http://46.249.213.93/iPhone/broadcast/victoriassecretangels-tablet.3gp/victoriassecretangels-tablet.3gp-mr648k.m3u8"
     },
