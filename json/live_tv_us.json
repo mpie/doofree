@@ -14,6 +14,12 @@
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=rGCi7bg0Qxvs8q7Sl13l pageUrl=http://zerocast.tv/embed.php?a=1&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
     },
     {
+      "title": "ABC HD",
+      "thumbnail": "http://zerocast.tv/channels/img/abc.png",
+      "resolver": "default",
+      "location": "http://142.4.216.60:1935/edge/_definst_/nz7l9vc5nv1og7b/playlist.m3u8?wowzasessionid=1419880374&xs=_we_Mzcxamx1aXJsamNzamVufDE0MTk5MTYzNzR8NzIuMjcuMjE0LjMzfDU0YTFhN2I2MzUxMWJ8ZDU3ODc0MTUyMWE0YTMyODdmZjdkYzJiMTYyZmY0MDA1YzM4NjdkYQ"
+    },
+    {
       "title": "AMC",
       "thumbnail": "http://zerocast.tv/channels/img/amc.jpg",
       "resolver": "default",
@@ -42,6 +48,12 @@
       "thumbnail": "http://zerocast.tv/channels/img/cbs-tv.jpg",
       "resolver": "default",
       "location": "rtmpe://207.244.74.135:1935/goLive playPath=Ger61uLQ4fedzvjRjrB7 pageUrl=http://zerocast.tv/embed.php?a=338&id=&width=640&height=480&autostart=true&strech= swfUrl=http://cdn.zerocast.tv/player/aaaaa.swf live=true token=OOG17t.x#K9Vh#|"
+    },
+    {
+      "title": "CBS HD",
+      "thumbnail": "http://zerocast.tv/channels/img/cbs-tv.jpg",
+      "resolver": "default",
+      "location": "http://142.4.216.60:1935/edge/_definst_/vp4q2gonwzh2dku/playlist.m3u8?wowzasessionid=1419872048&xs=_we_b2J6cTNsdHJqb2F4Z2xmfDE0MTk5MDgwNDh8NzIuMjcuMjE0LjMzfDU0YTE4NzMwOGM1Y2Z8Y2ZhYmFmNTFiY2VmNzczNzQ5MDI4YWU1OGUxNDBhZmZlYjhlYTRlMw"
     },
     {
       "title": "CW",
@@ -101,7 +113,7 @@
       "title": "HBO",
       "thumbnail": "http://zerocast.tv/channels/img/hbo.png",
       "resolver": "default",
-      "location": "rtmp://178.162.199.141/iguide playpath=0bf02qe6msgtu4s swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD"
+      "location": "http://142.4.216.60:1935/edge/_definst_/qzbbu26gcvjxksz/playlist.m3u8?wowzasessionid=1419907309&xs=_we_cXpiYnUyNmdjdmp4a3N6fDE0MTk5NDMzMDl8NzIuMjcuMjE0LjMzfDU0YTIxMGVkNTEyNmF8OGUzN2Q3OGJkNGZiNTBkOGU2ZmVlZTFiMzlkNjAxYWMyMzcyY2VmMg"
     },
     {
       "title": "Nat Geo Wild",
