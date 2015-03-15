@@ -41,19 +41,25 @@
             "title": "Bein Sports 1",
             "thumbnail": "http://www.d7ika.ma/wp-content/uploads/beinsport1_logo.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=4cfa76f8d1a0ae2cc4d9130d253d91a2fd0000d6&mode=1&name=Bein+Sports+1"
+            "location": "plugin://plugin.video.p2p-streams/?url=afe2db2bfc7c76a05bd2f41827cd23e535a2ec91&mode=1&name=Bein+Sports+1"
         },
         {
-            "title": "HBO 2",
-            "thumbnail": "http://www.gmkfreelogos.com/logos/H/img/HBO_2.gif",
+            "title": "FOX life HD (Change to english in sound menu)",
+            "thumbnail": "http://img3.wikia.nocookie.net/__cb20131118080446/logopedia/images/0/0a/FoxLifeHD.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=5d293fe2ca4876962c69d4fc38483f625a650f21&mode=1&name=HBO+2"
+            "location": "plugin://plugin.video.p2p-streams/?url=8867a6a1ba85864564459b6dfd712415a9d7e912mode=1&name=FOX+life+HD"
         },
         {
             "title": "FOX Sports 2 NL",
             "thumbnail": "http://cdn.marketplaceimages.windowsphone.com/v8/images/174e6d02-6d55-4731-ac8b-39f7d38cee52?imageType=ws_icon_large",
             "resolver": "default",
             "location": "plugin://plugin.video.p2p-streams/?url=9f69c544d2b91e1beee94972bc943ce9fe1a40f0&mode=1&name=FOX+sports+2"
+        },
+        {
+            "title": "HBO 2",
+            "thumbnail": "http://www.gmkfreelogos.com/logos/H/img/HBO_2.gif",
+            "resolver": "default",
+            "location": "plugin://plugin.video.p2p-streams/?url=a03691f955e87217a8506ffb2d1c5ff47872e688&mode=1&name=HBO+2"
         },
         {
             "title": "Sky Sports 1",
@@ -65,7 +71,7 @@
             "title": "Sky Sports 2",
             "thumbnail": "http://www.onlinetvmania.com/images/skysports2.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=c36cfe788f185f7e7238b021e738951628336cfe&mode=1&name=Sky+Sports+2"
+            "location": "plugin://plugin.video.p2p-streams/?url=97518ab8451a5c9e8da2b92245ac0ea6622a519c&mode=1&name=Sky+Sports+2"
         },
         {
             "title": "Sky Sports 3",
@@ -77,7 +83,7 @@
             "title": "Sky Sports 4",
             "thumbnail": "http://www.onlinetvmania.com/images/skysports4.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=27b91da9e17e32aca57f3b0124683fffe30febc6&mode=1&name=Sky+Sports+4"
+            "location": "plugin://plugin.video.p2p-streams/?url=203e4da82989736f8c324d588acc5d622ff6bfd3&mode=1&name=Sky+Sports+4"
         },
         {
             "title": "Sky Sports 5",
@@ -95,7 +101,7 @@
             "title": "Travel Channel",
             "thumbnail": "https://pmcdeadline2.files.wordpress.com/2013/04/travelchannel_logo__130423191643-200x200.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=82da84c820278b0f81410801baf459d78db814c2&mode=1&name=Travel+Channel"
+            "location": "plugin://plugin.video.p2p-streams/?url=3322a79a539fbacf61c7c4ba7e7d0a392e1311f0&mode=1&name=Travel+Channel"
         },
         {
             "title": "[COLOR red]ADULT CONTENT BELOW!!![/COLOR]",
@@ -107,7 +113,7 @@
             "title": "Brazzers TV Europe",
             "thumbnail": "http://www.orangeinfo.fr/wp-content/uploads/2014/01/Brazzers-TV-Europe-logo-carr%C3%A9-200x200.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=469529c3d932a98d375d1a0f9c999dc201a03e76&mode=1&name=Brazzers+TV+Europe"
+            "location": "plugin://plugin.video.p2p-streams/?url=3bc7fb38caf0f8ffef3d0462bc9c29ce7160ca4c&mode=1&name=Brazzers+TV+Europe"
         },
         {
             "title": "Eroxx HD",
@@ -119,13 +125,13 @@
             "title": "Dorcel HD",
             "thumbnail": "https://mediaportal-swiss-rtv-logos.googlecode.com/svn/trunk/TV/TVL_1-1_Classic_Clear/Dorcel%20TV.png",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=cac07720862e59779182a770c583831e722c0e79&mode=1&name=Dorcel+HD"
+            "location": "plugin://plugin.video.p2p-streams/?url=127d2db1e8bf90d9610e73a8d20b7b09adedcca5&mode=1&name=Dorcel+HD"
         },
         {
             "title": "Hustler Blue",
             "thumbnail": "https://mediaportal-swiss-rtv-logos.googlecode.com/svn/trunk/TV/TVL_1-1_Classic_Clear/Blue%20Hustler.png",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=914ef52108038da793302fdeb6f55a708cd42ea1&mode=1&name=Hustler+Blue"
+            "location": "plugin://plugin.video.p2p-streams/?url=b510c8125c54e7b98c59b84b3047f605bae5a2c7&mode=1&name=Hustler+Blue"
         },
         {
             "title": "Hustler HD",
@@ -137,7 +143,7 @@
             "title": "Penthouse HD",
             "thumbnail": "http://www.tvline.spb.ru/images/PH_HD.jpg",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=dd95cbc9f722a58428612123e88969aa004cbb17&mode=1&name=Penthouse+HD"
+            "location": "plugin://plugin.video.p2p-streams/?url=14db031a11e664c9982318072966178b334a15ae&mode=1&name=Penthouse+HD"
         },
         {
             "title": "Playboy TV",
@@ -155,7 +161,7 @@
             "title": "Redlight HD",
             "thumbnail": "http://www.turbomaxx.co.uk/media/catalog/product/cache/2/image/650x/040ec09b1e35df139433887a97daa66f/r/e/redlight_hd_logo-1.png",
             "resolver": "default",
-            "location": "plugin://plugin.video.p2p-streams/?url=ea23638e6de7662819d75044fdac6fe3aee2e274&mode=1&name=Redlight+HD"
+            "location": "plugin://plugin.video.p2p-streams/?url=8cd8eb5a10af586d9ba0ec676ce19d8795f3b764&mode=1&name=Redlight+HD"
         }
     ]
 }
