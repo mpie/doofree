@@ -16,7 +16,6 @@ queueMenu = control.lang(32065).encode('utf-8')
 def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')
     add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png')
-    add_directory_item('Cleanup', 'clearSources', 'root_cleanup.png', 'DefaultAddonProgram.png')
     end_directory()
     views.setView('movies', {'skin.estuary': 500, 'skin.confluence': 500})
 
@@ -32,7 +31,7 @@ def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_a
     except:
         pass
     url = '%s?action=%s' % (sysaddon, query) if is_action else query
-    thumb = os.path.join(artPath, thumb) if artPath is not None else icon
+    thumb = os.path.join(artPath, thumb) if not artPath == None else icon
     cm = []
     if queue:
         cm.append((queueMenu, 'RunPlugin(%s?action=queueItem)' % sysaddon))
@@ -132,14 +131,3 @@ def thai_shows():
     add_directory_item('ภาพยนตร์แอนนิเมชั่น / Animation', 'listShows&catid=93&page=1', '',
                        'DefaultMovies.png')
     end_directory()
-
-
-def clear_cache():
-    control.idle()
-    yes = control.yesnoDialog('Are you sure?', '', '')
-    if not yes:
-        return
-
-    from resources.lib.modules import cache
-    cache.cache_clear()
-    control.infoDialog('Process Complete', sound=True, icon='INFO')

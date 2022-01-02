@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import sys, re, json, urllib, urllib2, urlparse, requests
+import sys, re, json, urllib, urlparse
 
 try:
     action = dict(urlparse.parse_qsl(sys.argv[2].replace('?', '')))['action']
@@ -35,7 +35,7 @@ List all the shows from a specific category
 '''
 
 
-def listShows(self, catid, page):
+def list_shows(self, catid, page):
     syshandle = int(sys.argv[1])
     limatch = []
     url = self.shows_link % (catid, page)
@@ -181,7 +181,7 @@ Start playing the video
 '''
 
 
-def sourcePage(self, url, name, image):
+def source_page(self, url, name, image):
     response = urllib.urlopen('http://ip-api.com/json/')
     data = json.loads(response.read())
 
