@@ -24,8 +24,8 @@
     <addon id="repository.mpie" name="Mpie Addons repo" version="2.1.0" provider-name="Mpie">
         <extension point="xbmc.addon.repository" name="Mpie Addons repo">
             <dir minversion="18.0">
-                <info compressed="false">https://raw.githubusercontent.com/mpie/doofree/master/repo/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/mpie/doofree/master/repo/zips/addons.xml.md5</checksum>
+                <info compressed="false">https://raw.githubusercontent.com/mpie/doofree/master/repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/mpie/doofree/master/repo/addons.xml.md5</checksum>
                 <datadir zip="true">https://raw.githubusercontent.com/mpie/doofree/master/repo/zips/</datadir>
             </dir>
         </extension>
