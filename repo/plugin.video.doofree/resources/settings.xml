@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting id="movie.viewtype" type="select" label="Movies viewtype" values="Wall|WideList|Fanart|List|Poster|Shift|InfoWall" default="Wall" />
+        <setting id="tvshows.viewtype" type="select" label="TV shows viewtype" values="Wall|WideList|Fanart|List|Poster|Shift|InfoWall|Banner" default="InfoWall" />
+    </category>
+</settings>
