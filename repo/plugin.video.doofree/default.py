@@ -78,12 +78,12 @@ elif action == 'playThaiLiveTV':
 
 elif action == 'listShows':
     from resources.lib.indexers import thai
-    thai.list_shows(catid, page)
+    thai.thai().listShows(catid, page)
 
 elif action == 'listEpisodes':
     from resources.lib.indexers import thai
-    thai.list_episodes(catid, showid, page, image)
+    thai.thai().listEpisodes(catid, showid, page, image)
 
 elif action == 'sourcePage':
     from resources.lib.indexers import thai
-    thai.source_page(url, name, image)
+    thai.thai().sourcePage(url, name, image)
