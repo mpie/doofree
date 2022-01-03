@@ -1,19 +1,15 @@
 # -*- coding: utf-8 -*-
 
-'''
-    DooFree Add-on
-    Copyright (C) 2017 Mpie
-'''
-
-import sys, re, json, urllib, urlparse
+import sys, re, json, urllib
+from urllib.parse import parse_qsl
 
 try:
-    action = dict(urlparse.parse_qsl(sys.argv[2].replace('?', '')))['action']
+    action = dict(parse_qsl(sys.argv[2].replace('?', '')))['action']
 except:
     action = None
 
-from resources.lib.modules import control
-from resources.lib.modules import client
+from resources.lib.tools import control
+from resources.lib.tools import client
 from resources.lib.modules import views
 
 addonFanart = control.addonFanart()
@@ -49,6 +45,7 @@ class thai:
             pass
 
         data = json.loads(result)
+        print(data)
         pageContent = data['content'].encode('utf-8')
 
         # todo: fix pagination

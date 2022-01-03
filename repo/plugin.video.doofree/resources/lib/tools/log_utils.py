@@ -70,28 +70,28 @@ def log(msg, caller=None, level=LOGNOTICE):
 
 
 # def error(message=None, exception=True):
-	# try:
-		# import sys
-		# if exception:
-			# type, value, traceback = sys.exc_info()
-			# errortype = type.__name__
-			# errormessage = value.message
+# try:
+# import sys
+# if exception:
+# type, value, traceback = sys.exc_info()
+# errortype = type.__name__
+# errormessage = value.message
 
-			# if errormessage == '':
-				# raise Exception()
+# if errormessage == '':
+# raise Exception()
 
-			# if message:
-				# message += ' -> '
-			# else:
-				# message = ''
-			# message += str(errortype) + ' -> ' + str(errormessage)
+# if message:
+# message += ' -> '
+# else:
+# message = ''
+# message += str(errortype) + ' -> ' + str(errormessage)
 
-		# else:
-			# caller = None
+# else:
+# caller = None
 
-		# log(msg=message, caller=__name__, level=LOGERROR)
-	# except:
-		# pass
+# log(msg=message, caller=__name__, level=LOGERROR)
+# except:
+# pass
 
 
 def error(message=None, exception=True):
@@ -175,8 +175,8 @@ def trace(method):
 		result = method(*args, **kwargs)
 		end = time.time()
 		log('{name!r} time: {time:2.4f}s args: |{args!r}| kwargs: |{kwargs!r}|'.format(name=method.__name__,
-		                                                                               time=end - start, args=args,
-		                                                                               kwargs=kwargs), LOGDEBUG)
+																					   time=end - start, args=args,
+																					   kwargs=kwargs), LOGDEBUG)
 		return result
 
 	def method_trace_off(*args, **kwargs):
@@ -190,7 +190,7 @@ def trace(method):
 
 def _is_debugging():
 	command = {'jsonrpc': '2.0', 'id': 1, 'method': 'Settings.getSettings',
-	           'params': {'filter': {'section': 'system', 'category': 'logging'}}}
+			   'params': {'filter': {'section': 'system', 'category': 'logging'}}}
 	js_data = execute_jsonrpc(command)
 	for item in js_data.get('result', {}).get('settings', {}):
 		if item['id'] == 'debug.showloginfo':

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, urlparse
+import os, sys, xbmcaddon
 
-from resources.lib.modules import control
+from resources.lib.tools import control
 from resources.lib.modules import views
 
 sysaddon = sys.argv[0]
@@ -10,8 +10,7 @@ syshandle = int(sys.argv[1])
 control.moderator()
 artPath = control.artPath()
 addonFanart = control.addonFanart()
-queueMenu = control.lang(32065).encode('utf-8')
-
+queueMenu = 'Queue'
 
 def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')

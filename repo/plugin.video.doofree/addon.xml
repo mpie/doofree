@@ -2,11 +2,11 @@
 <addon id="plugin.video.doofree" version="5.0.2" name="DooFree" provider-name="Mpie">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
+        <import addon="xbmc.addon" version="17.9.910" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en">Free as in beer :)</summary>

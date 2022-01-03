@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import urlparse, sys, xbmcaddon
+import sys, xbmcaddon
+from urllib.parse import parse_qsl
 
 # update repo
 addonInfo = xbmcaddon.Addon().getAddonInfo
 
-params = dict(urlparse.parse_qsl(sys.argv[2].replace('?', '')))
+params = dict(parse_qsl(sys.argv[2].replace('?', '')))
 
 action = params.get('action')
 
