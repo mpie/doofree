@@ -2,8 +2,7 @@
 
 import os, sys, xbmcaddon
 
-from resources.lib.tools import control
-from resources.lib.modules import views
+from resources.lib.tools import control, views
 
 sysaddon = sys.argv[0]
 syshandle = int(sys.argv[1])
@@ -16,7 +15,7 @@ def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')
     add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png')
     end_directory()
-    views.setView('movies', {'skin.estuary': 500, 'skin.confluence': 500})
+    views.set_view('movies', {'skin.estuary': 500, 'skin.confluence': 500})
 
 
 def end_directory():

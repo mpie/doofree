@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.doofree" version="5.0.2" name="DooFree" provider-name="Mpie">
+<addon id="plugin.video.doofree" version="5.0.4" name="DooFree" provider-name="Mpie">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
         <import addon="xbmc.addon" version="17.9.910" />

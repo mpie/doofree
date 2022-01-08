@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 
-'''
-    DooFree Add-on
-    Copyright (C) 2017 Mpie
-'''
+try:
+    from sqlite3 import dbapi2 as database
+except:
+    from pysqlite2 import dbapi2 as database
 
-
-try: from sqlite3 import dbapi2 as database
-except: from pysqlite2 import dbapi2 as database
-
-from resources.lib.modules import control
+from resources.lib.tools import control
 
 
 def addView(content):
@@ -24,16 +20,16 @@ def addView(content):
         dbcur.execute("INSERT INTO views Values (?, ?, ?)", record)
         dbcon.commit()
 
-        viewName = control.infoLabel('Container.Viewmode')
-        skinName = control.addon(skin).getAddonInfo('name')
-        skinIcon = control.addon(skin).getAddonInfo('icon')
+        view_name = control.infoLabel('Container.Viewmode')
+        skin_name = control.addon(skin).getAddonInfo('name')
+        skin_icon = control.addon(skin).getAddonInfo('icon')
 
-        control.infoDialog(viewName, heading=skinName, sound=True, icon=skinIcon)
+        control.infoDialog(view_name, heading=skin_name, sound=True, icon=skin_icon)
     except:
         return
 
 
-def setView(content, viewDict=None):
+def set_view(content, view_dict=None):
     for i in range(0, 200):
         if control.condVisibility('Container.Content(%s)' % content):
             try:
@@ -47,9 +43,9 @@ def setView(content, viewDict=None):
                 if view == None: raise Exception()
                 return control.execute('Container.SetViewMode(%s)' % str(view))
             except:
-                try: return control.execute('Container.SetViewMode(%s)' % str(viewDict[skin]))
+                try: return control.execute('Container.SetViewMode(%s)' % str(view_dict[skin]))
                 except: return
 
-        control.sleep(100)
+        control.sleep(90)
 
 

@@ -8,9 +8,7 @@ try:
 except:
     action = None
 
-from resources.lib.tools import control
-from resources.lib.tools import client
-from resources.lib.modules import views
+from resources.lib.tools import control, client, views
 
 addonFanart = control.addonFanart()
 sysaddon = sys.argv[0]
@@ -39,13 +37,8 @@ class thai:
         syshandle = int(sys.argv[1])
         limatch = []
         url = self.shows_link % (catid, page)
-        try:
-            result = client.request(url)
-        except:
-            pass
-
+        result = client.request(url)
         data = json.loads(result)
-        print(data)
         pageContent = data['content'].encode('utf-8')
 
         # todo: fix pagination
@@ -103,7 +96,7 @@ class thai:
 
         control.content(syshandle, 'tvshows')
         control.directory(syshandle, cacheToDisc=True)
-        views.setView('tvshows', {'skin.estuary': 500, 'skin.confluence': 500})
+        views.set_view('tvshows', {'skin.estuary': 500, 'skin.confluence': 500})
 
     '''
     List all shows episodes
@@ -168,7 +161,7 @@ class thai:
 
         control.content(syshandle, 'episodes')
         control.directory(syshandle, cacheToDisc=True)
-        views.setView('episodes', {'skin.estuary': 55, 'skin.confluence': 50})
+        views.set_view('episodes', {'skin.estuary': 55, 'skin.confluence': 50})
 
     '''
     Get the video url by member_id cookie
@@ -176,8 +169,8 @@ class thai:
     '''
 
     def sourcePage(self, url, name, image):
-        response = urllib.urlopen('http://ip-api.com/json/')
-        data = json.loads(response.read())
+        response = client.request('http://ip-api.com/json/')
+        data = json.loads(response)
 
         if (data['countryCode'] == 'TH'):
             viewServerId = 409
