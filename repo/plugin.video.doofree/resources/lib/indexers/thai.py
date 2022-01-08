@@ -31,8 +31,8 @@ class thai:
 
     def get_cookies(self, geo_check=False):
         if geo_check:
-            response = client.request('http://ip-api.com/json/')
-            data = json.loads(response)
+            result = client.request('http://ip-api.com/json/', headers=self.get_headers('http://ip-api.com/json/'))
+            data = json.loads(result)
 
             if data['countryCode'] == 'TH':
                 view_server_id = 409
@@ -40,10 +40,10 @@ class thai:
                 view_server_id = self.view_server_id
 
             return 'ssCheckLogin2=1; viewServersID=%d; ssMemberID=%d; ssMemberUsername=%s; ssMemberPassword=%s' % \
-                (view_server_id, self.member_id, 'endy.adorian%40niickel.us', 'test12345')
+                   (view_server_id, self.member_id, 'endy.adorian%40niickel.us', 'test12345')
         else:
             return 'ssCheckLogin2=1; ssMemberID=%d; ssMemberUsername=%s; ssMemberPassword=%s' % \
-                (self.member_id, 'endy.adorian%40niickel.us', 'test12345')
+                   (self.member_id, 'endy.adorian%40niickel.us', 'test12345')
 
     def get_headers(self, ref_url):
         return {'Host': 'www.seesantv.com', 'Referer': ref_url, 'User-Agent': self.User_Agent}
@@ -57,8 +57,9 @@ class thai:
         limatch = []
         url = self.shows_link % (catid, page)
         result = client.request(url, headers=self.get_headers(url), cookie=self.get_cookies())
+
         data = json.loads(result)
-        pageContent = data['content'].encode('utf-8')
+        pageContent = data['content']
 
         # todo: fix pagination
         pages = range(2, 6)
@@ -67,7 +68,7 @@ class thai:
 
         for li_content in limatch:
             show = re.compile('program-(.+?)" target.+?src="(.+?)".+?h5>(.+?)</h5').findall(li_content)
-            title = show[0][2].decode('utf-8')
+            title = show[0][2]
             showid = show[0][0]
             image = show[0][1]
 
@@ -80,13 +81,14 @@ class thai:
             self.list.append({'name': title, 'showid': showid, 'image': image})
 
         for show in self.list:
-            name = show['name'].encode('utf-8')
+            name = show['name']
             showid = show['showid']
             image = show['image']
             action = 'listEpisodes'
             query = '?action=%s&name=%s&catid=%s&showid=%s&image=%s&page=1' % (action, name, catid, showid, image)
             url = '%s%s' % (sysaddon, query)
-            item = control.item(name, iconImage=image, thumbnailImage=image)
+            item = control.item(name)
+            item.setArt({'icon': image})
             if not addonFanart == None: item.setProperty('Fanart_Image', addonFanart)
             item.setInfo(type="Video", infoLabels={"Title": name, "OriginalTitle": name})
             control.addItem(handle=int(sys.argv[1]), url=url, listitem=item, isFolder=True)
@@ -107,7 +109,7 @@ class thai:
                 pageNumber = int(page)
                 query = '?action=%s&page=%d&name=%s&catid=%s' % (action, int(page), 'Page ' + str(pageNumber), catid)
                 url = '%s%s' % (sysaddon, query)
-                item = control.item('Page ' + str(pageNumber), iconImage='', thumbnailImage='')
+                item = control.item('Page ' + str(pageNumber))
                 if not addonFanart == None: item.setProperty('Fanart_Image', addonFanart)
                 item.setInfo(type="Video", infoLabels={"Title": 'Page ' + str(pageNumber),
                                                        "OriginalTitle": 'Page ' + str(pageNumber)})
@@ -125,27 +127,28 @@ class thai:
     def list_episodes(self, catid, showid, page, image):
         syshandle = int(sys.argv[1])
         url = self.episodes_link % (showid, page)
-        result = client.request(url, cookie=self.get_cookies())
+        result = client.request(url, headers=self.get_headers(url), cookie=self.get_cookies())
 
         data = json.loads(result)
-        r = client.parseDOM(data['list'].encode('utf-8'), 'li')
+        r = client.parseDOM(data['list'], 'li')
         episodes = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a')) for i in r]
 
         for episode in episodes:
-            name = re.compile('<i class="fas fa-play-circle-player "></i> (.+)').findall(episode[1][0].encode('utf-8'))[
+            name = re.compile('<i class="fas fa-play-circle-player "></i> (.+)').findall(episode[1][0])[
                 0]
             url = episode[0][0]
-            self.list.append({'name': name, 'url': urllib.quote_plus(url), 'image': image})
+            self.list.append({'name': name, 'url': urllib.parse.quote_plus(url), 'image': image})
 
         for episode in self.list:
             name = episode['name']
             url = episode['url']
             image = episode['image']
             action = 'sourcePage'
-            query = '?action=%s&image=%s&url=%s&name=%s' % (action, image, url, urllib.quote_plus(name))
+            query = '?action=%s&image=%s&url=%s&name=%s' % (action, image, url, urllib.parse.quote_plus(name))
 
             url = '%s%s' % (sysaddon, query)
-            item = control.item(name, iconImage=image, thumbnailImage=image)
+            item = control.item(name)
+            item.setArt({'icon': image})
             if not addonFanart == None: item.setProperty('Fanart_Image', addonFanart)
             item.setInfo(type="Video", infoLabels={"Title": name, "OriginalTitle": name})
             control.addItem(handle=int(sys.argv[1]), url=url, listitem=item, isFolder=False)
@@ -158,19 +161,19 @@ class thai:
 
         if show_next_page:
             name = 'Next page'
-            item = control.item(name, iconImage='', thumbnailImage='')
+            item = control.item(name)
             item.setInfo(type="Video", infoLabels={"Title": name, "OriginalTitle": name})
             query = '?action=listEpisodes&name=%s&catid=%s&showid=%s&image=''&page=%d' % (
-            name, catid, showid, int(page) + 1)
+                name, catid, showid, int(page) + 1)
             url = '%s%s' % (sysaddon, query)
             control.addItem(handle=int(sys.argv[1]), url=url, listitem=item, isFolder=True)
 
         if show_prev_page:
             name = 'Previous page'
-            item = control.item(name, iconImage='', thumbnailImage='')
+            item = control.item(name)
             item.setInfo(type="Video", infoLabels={"Title": name, "OriginalTitle": name})
             query = '?action=listEpisodes&name=%s&catid=%s&showid=%s&image=''&page=%d' % (
-            name, catid, showid, int(page) - 1)
+                name, catid, showid, int(page) - 1)
             url = '%s%s' % (sysaddon, query)
             control.addItem(handle=int(sys.argv[1]), url=url, listitem=item, isFolder=True)
 
@@ -184,15 +187,13 @@ class thai:
     '''
 
     def source_page(self, url, name, image):
-        try:
-            result = client.request(url, cookie=self.get_cookies(geo_check=True), headers=self.get_headers(url))
-        except:
-            pass
+        result = client.request(url, cookie=self.get_cookies(geo_check=True), headers=self.get_headers(url))
 
-        vidFile = re.compile('file: "(.+?)"').findall(result)[0]
+        vidFile = re.compile('file: "(.+?)"').findall(result.decode('utf-8'))[0]
         videoUrl = vidFile.replace('s.mp4', '.mp4')
 
-        item = control.item(path=url, iconImage=image, thumbnailImage=image)
+        item = control.item(path=url)
+        item.setArt({'icon': image})
         item.setInfo(type='Video', infoLabels={'title': name})
         item.setProperty('Video', 'true')
         item.setProperty('IsPlayable', 'true')

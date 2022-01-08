@@ -2,6 +2,7 @@
 
 import html.parser
 import io, gzip, random, re
+from io import BytesIO
 from resources.lib.tools import dom_parser
 
 try:
@@ -52,11 +53,18 @@ def request(url, headers=None, cookie=None, mobile=False, post=None, referer=Non
     elif compression and limit is None:
         headers['Accept-Encoding'] = 'gzip'
 
-    request = Request(url, data=post)
-    _add_request_header(request, headers)
-    response = urlopen(request, timeout=int(timeout)).read()
+    request = Request(url, data=post, headers=headers)
+    response = urlopen(request, timeout=int(timeout))
 
-    return response
+    try: encoding = response.headers["Content-Encoding"]
+    except: encoding = None
+
+    result = response.read()
+
+    if encoding == 'gzip':
+        result = gzip.GzipFile(fileobj=BytesIO(result)).read()
+
+    return result
 
 
 def _basic_request(url, headers=None, post=None, timeout='30', limit=None):
