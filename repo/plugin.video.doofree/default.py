@@ -70,11 +70,11 @@ elif action == 'thaiShows':
     navigator.thai_shows()
 
 elif action == 'playLiveTV':
-    from resources.lib.modules import player
+    from resources.lib.tools import player
     player.player().playLiveStream(name, url, image)
 
 elif action == 'playThaiLiveTV':
-    from resources.lib.modules import player
+    from resources.lib.tools import player
     player.player().playLiveStream(name, url, image)
 
 elif action == 'listShows':
