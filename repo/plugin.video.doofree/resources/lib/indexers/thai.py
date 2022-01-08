@@ -29,15 +29,34 @@ class thai:
         self.replace_server = 'gm99'  # uk1, uk2, gm1, gm2, us1, us3, us4, as1, as2, jp1, jp2
         self.User_Agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
 
+    def get_cookies(self, geo_check=False):
+        if geo_check:
+            response = client.request('http://ip-api.com/json/')
+            data = json.loads(response)
+
+            if data['countryCode'] == 'TH':
+                view_server_id = 409
+            else:
+                view_server_id = self.view_server_id
+
+            return 'ssCheckLogin2=1; viewServersID=%d; ssMemberID=%d; ssMemberUsername=%s; ssMemberPassword=%s' % \
+                (view_server_id, self.member_id, 'endy.adorian%40niickel.us', 'test12345')
+        else:
+            return 'ssCheckLogin2=1; ssMemberID=%d; ssMemberUsername=%s; ssMemberPassword=%s' % \
+                (self.member_id, 'endy.adorian%40niickel.us', 'test12345')
+
+    def get_headers(self, ref_url):
+        return {'Host': 'www.seesantv.com', 'Referer': ref_url, 'User-Agent': self.User_Agent}
+
     '''
     List all the shows from a specific category
     '''
 
-    def listShows(self, catid, page):
+    def list_shows(self, catid, page):
         syshandle = int(sys.argv[1])
         limatch = []
         url = self.shows_link % (catid, page)
-        result = client.request(url)
+        result = client.request(url, headers=self.get_headers(url), cookie=self.get_cookies())
         data = json.loads(result)
         pageContent = data['content'].encode('utf-8')
 
@@ -103,14 +122,10 @@ class thai:
     Page starts at 0
     '''
 
-    def listEpisodes(self, catid, showid, page, image):
+    def list_episodes(self, catid, showid, page, image):
         syshandle = int(sys.argv[1])
         url = self.episodes_link % (showid, page)
-        cookie = 'ssMemberID=%d' % (self.member_id)
-        try:
-            result = client.request(url, cookie=cookie)
-        except:
-            pass
+        result = client.request(url, cookie=self.get_cookies())
 
         data = json.loads(result)
         r = client.parseDOM(data['list'].encode('utf-8'), 'li')
@@ -168,21 +183,9 @@ class thai:
     Start playing the video
     '''
 
-    def sourcePage(self, url, name, image):
-        response = client.request('http://ip-api.com/json/')
-        data = json.loads(response)
-
-        if (data['countryCode'] == 'TH'):
-            viewServerId = 409
-        else:
-            viewServerId = self.view_server_id
-
-        cookie = 'ssCheckLogin2=1; viewServersID=%d; ssMemberID=%d; ssMemberUsername=%s; ssMemberPassword=%s' % (
-        viewServerId, self.member_id, 'endy.adorian%40niickel.us', 'test12345')
-        headers = {'Host': 'www.seesantv.com', 'Referer': url, 'User-Agent': self.User_Agent}
-
+    def source_page(self, url, name, image):
         try:
-            result = client.request(url, cookie=cookie, headers=headers)
+            result = client.request(url, cookie=self.get_cookies(geo_check=True), headers=self.get_headers(url))
         except:
             pass
 

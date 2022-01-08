@@ -46,6 +46,4 @@ def set_view(content, view_dict=None):
                 try: return control.execute('Container.SetViewMode(%s)' % str(view_dict[skin]))
                 except: return
 
-        control.sleep(90)
-
-
+        control.sleep()
