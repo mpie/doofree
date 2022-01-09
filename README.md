@@ -2,6 +2,7 @@
 
 
 #Mpie Addons repo V2.10
+For Kodi 19+
 
 ---
 ##Support
