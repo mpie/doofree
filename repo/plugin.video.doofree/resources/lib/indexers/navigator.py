@@ -98,7 +98,7 @@ def thai_live_tv():
                        'chworkpoint.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('TNN',
                        'playThaiLiveTV'
-                       '&url=http://live3.thaimomo.com/live/chtnn24-2/playlist.m3u8'
+                       '&url=http://live3.thaimomo.com/live/chtnn24-1/playlist.m3u8'
                        '&name=TNN'
                        '&image=DefaultMovies.png',
                        'DefaultMovies.png', 'DefaultMovies.png', is_folder=False)
