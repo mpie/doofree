@@ -56,7 +56,7 @@ def thai_live_tv():
                        'ch1hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('3HD',
                        'playThaiLiveTV'
-                       '&url=http://live4.thaimomo.com/live/ch3hd-2/playlist.m3u8'
+                       '&url=http://live3.thaimomo.com/live/ch3hd-2/chunklist_w1189507406.m3u8'
                        '&name=3HD'
                        '&image=ch3hd.png',
                        'ch3hd.png', 'DefaultMovies.png', is_folder=False)
