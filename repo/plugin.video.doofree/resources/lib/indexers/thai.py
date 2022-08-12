@@ -46,7 +46,7 @@ class thai:
                    (self.member_id, 'endy.adorian%40niickel.us', 'test12345')
 
     def get_headers(self, ref_url):
-        return {'Host': 'www.seesantv.com', 'Referer': ref_url, 'User-Agent': self.User_Agent}
+        return {'Host': 'seesantv.com', 'Referer': ref_url, 'User-Agent': self.User_Agent}
 
     '''
     List all the shows from a specific category
