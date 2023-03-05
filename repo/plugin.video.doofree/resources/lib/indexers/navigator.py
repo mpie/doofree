@@ -14,6 +14,7 @@ queueMenu = 'Queue'
 def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')
     add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png')
+    add_directory_item('Holger', 'holger', 'DefaultMovies.png', 'DefaultMovies.png')
     end_directory()
     views.set_view('movies', {'skin.estuary': 500, 'skin.confluence': 500})
 
@@ -46,6 +47,15 @@ def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_a
 
     control.addItem(handle=syshandle, url=url, listitem=item, isFolder=is_folder)
 
+
+def holger():
+    add_directory_item('A Christmas Tale - Rare Exports (2010)',
+                       'playThaiLiveTV'
+                       '&url=https://hfs280.serversicuro.cc/hls/dnzpegut3lg4a3gyva3x72jsywj2c7kwuzpeemqoq,3ijdro36vluz4drqd6a,sijdro36vluyjy6tmtq,.urlset/master.m3u8'
+                       '&name=Christmas_Tale_2010'
+                       '&image=DefaultMovies.png',
+                       'DefaultMovies.png', 'DefaultMovies.png', is_folder=False)
+    end_directory()
 
 def thai_live_tv():
     add_directory_item('ONE',

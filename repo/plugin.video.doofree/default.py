@@ -61,6 +61,10 @@ if action is None:
     from resources.lib.indexers import navigator
     navigator.root()
 
+elif action == 'holger':
+    from resources.lib.indexers import navigator
+    navigator.holger()
+
 elif action == 'thaiLiveTV':
     from resources.lib.indexers import navigator
     navigator.thai_live_tv()
