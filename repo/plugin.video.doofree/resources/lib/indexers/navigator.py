@@ -14,7 +14,6 @@ queueMenu = 'Queue'
 def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')
     add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png')
-    add_directory_item('Holger', 'holger', 'DefaultMovies.png', 'DefaultMovies.png')
     end_directory()
     views.set_view('movies', {'skin.estuary': 500, 'skin.confluence': 500})
 
@@ -47,68 +46,58 @@ def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_a
 
     control.addItem(handle=syshandle, url=url, listitem=item, isFolder=is_folder)
 
-
-def holger():
-    add_directory_item('A Christmas Tale - Rare Exports (2010)',
-                       'playThaiLiveTV'
-                       '&url=https://hfs280.serversicuro.cc/hls/dnzpegut3lg4a3gyva3x72jsywj2c7kwuzpeemqoq,3ijdro36vluz4drqd6a,sijdro36vluyjy6tmtq,.urlset/master.m3u8'
-                       '&name=Christmas_Tale_2010'
-                       '&image=DefaultMovies.png',
-                       'DefaultMovies.png', 'DefaultMovies.png', is_folder=False)
-    end_directory()
-
 def thai_live_tv():
     add_directory_item('ONE',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/chone-3/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/chone-3/playlist.m3u8'
                        '&name=ONE_HD'
                        '&image=ch1hd.png',
                        'ch1hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('3HD',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/ch3hd-3/chunklist_w1267291809.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/ch3hd-3/playlist.m3u8'
                        '&name=3HD'
                        '&image=ch3hd.png',
                        'ch3hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('PPTV',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/chpptv-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/chpptv-3/playlist.m3u8'
                        '&name=PPTV'
                        '&image=ch3sd.png',
                        'ch3sd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('GMM',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/chgmmchannel-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8'
                        '&name=3Family'
                        '&image=ch3family.png',
                        'ch3family.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('5HD',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/ch5hd-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/ch5hd-1/playlist.m3u8'
                        '&name=5HD'
                        '&image=ch5hd.png',
                        'ch5hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('7HD',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/ch7hd-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/ch7hd-3/playlist.m3u8'
                        '&name=7HD'
                        '&image=ch7hd.png',
                        'ch7hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('8HD',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/cheight-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/cheight-3/playlist.m3u8'
                        '&name=8HD'
                        '&image=ch8hd.png',
                        'ch8hd.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('Workpoint',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/chworkpointt-2/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8'
                        '&name=WORKPOINT'
                        '&image=chworkpoint.png',
                        'chworkpoint.png', 'DefaultMovies.png', is_folder=False)
     add_directory_item('TNN',
                        'playThaiLiveTV'
-                       '&url=https://live2.thaimomo.com/live/chtnn24-1/playlist.m3u8'
+                       '&url=https://live-gm.thaimomo.com/live-as/chtnn24-2/playlist.m3u8'
                        '&name=TNN'
                        '&image=DefaultMovies.png',
                        'DefaultMovies.png', 'DefaultMovies.png', is_folder=False)
