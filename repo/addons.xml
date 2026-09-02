@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.doofree" version="5.3.1" name="DooFree" provider-name="Mpie">
+    <addon id="plugin.video.doofree" version="5.4.0" name="DooFree" provider-name="Mpie">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="xbmc.addon" version="17.9.910" />
@@ -26,12 +26,12 @@
                 <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
             </assets>
             <news>
-                V5.3.1 - Fixed playback errors, paging beyond page 4, titles with special
-                characters, and Python 3.9+ compatibility. Failures now say what went wrong.
+                V5.4.0 - Channels and categories now come from a configuration file in the
+                repository, so a dead channel can be fixed without updating the addon.
             </news>
         </extension>
     </addon>
-    <addon id="repository.mpie" name="Mpie Addons repo" version="2.1.0" provider-name="Mpie">
+    <addon id="repository.mpie" name="[COLOR red]Mpie Addons repo[/COLOR]" version="2.1.0" provider-name="Mpie">
         <extension point="xbmc.addon.repository" name="Mpie Addons repo">
             <dir minversion="18.0">
                 <info compressed="false">https://raw.githubusercontent.com/mpie/doofree/master/repo/addons.xml</info>

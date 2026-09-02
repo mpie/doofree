@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "updated": "2026-09-02",
+  "_comment": "Live channels and show categories for the DooFree addon. The addon fetches this file at runtime and caches it for a few hours, so editing and pushing it here is enough to fix a dead channel - no addon release, and viewers do not have to update. Keep the schema number as it is; the addon ignores a file it does not understand and falls back to the copy shipped inside the addon. 'name' is the label in the menu, 'title' is what shows while playing (optional, defaults to name), 'image' is an artwork filename from resources/media/doofree.",
+  "live": [
+    {
+      "name": "ONE",
+      "title": "ONE_HD",
+      "url": "https://live-gm.thaimomo.com/live-as/chone-3/playlist.m3u8",
+      "image": "ch1hd.png"
+    },
+    {
+      "name": "3HD",
+      "title": "3HD",
+      "url": "https://live-gm.thaimomo.com/live-as/ch3hd-3/playlist.m3u8",
+      "image": "ch3hd.png"
+    },
+    {
+      "name": "PPTV",
+      "title": "PPTV",
+      "url": "https://live-gm.thaimomo.com/live-as/chpptv-3/playlist.m3u8",
+      "image": "ch3sd.png"
+    },
+    {
+      "name": "GMM",
+      "title": "3Family",
+      "url": "https://live-gm.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8",
+      "image": "ch3family.png"
+    },
+    {
+      "name": "5HD",
+      "title": "5HD",
+      "url": "https://live-gm.thaimomo.com/live-as/ch5hd-1/playlist.m3u8",
+      "image": "ch5hd.png"
+    },
+    {
+      "name": "7HD",
+      "title": "7HD",
+      "url": "https://live-gm.thaimomo.com/live-as/ch7hd-3/playlist.m3u8",
+      "image": "ch7hd.png"
+    },
+    {
+      "name": "8HD",
+      "title": "8HD",
+      "url": "https://live-gm.thaimomo.com/live-as/cheight-3/playlist.m3u8",
+      "image": "ch8hd.png"
+    },
+    {
+      "name": "Workpoint",
+      "title": "WORKPOINT",
+      "url": "https://live-gm.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8",
+      "image": "chworkpoint.png"
+    },
+    {
+      "name": "TNN",
+      "title": "TNN",
+      "url": "https://live-gm.thaimomo.com/live-as/chtnn24-2/playlist.m3u8",
+      "image": "DefaultMovies.png"
+    }
+  ],
+  "categories": [
+    {"name": "ละครไทย (ออนแอร์) / Thai Dramas (on air)", "catid": "18"},
+    {"name": "ละครไทย (อวสาน) / Thai Dramas (ended)", "catid": "27"},
+    {"name": "ซีรี่ย์เกาหลี / Korean Series", "catid": "17"},
+    {"name": "หนังจีนชุด / Chinese Series", "catid": "37"},
+    {"name": "รายการอาหาร / Cooking Shows", "catid": "15"},
+    {"name": "วาไรตี้โชว์ / Variety Shows", "catid": "8"},
+    {"name": "เรียลลิตี้โชว์ / Reality & Singing Contest", "catid": "84"},
+    {"name": "เกมส์โชว์ / Game Shows", "catid": "2"},
+    {"name": "ข่าว / Thai News", "catid": "4"},
+    {"name": "ทอล์กโชว์ / Talk Shows", "catid": "3"},
+    {"name": "ภาพยนตร์ไทย / Thai Movies", "catid": "92"},
+    {"name": "ภาพยนตร์ฝรั่งใหม่ / US Movies (Thai dubbed)", "catid": "98"},
+    {"name": "ซีรี่ย์ฝรั่ง / US Series (Thai dubbed)", "catid": "38"},
+    {"name": "ภาพยนตร์แอนนิเมชั่น / Animation", "catid": "93"}
+  ]
+}
