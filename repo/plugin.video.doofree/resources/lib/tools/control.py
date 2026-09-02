@@ -206,9 +206,19 @@ def selectDialog(list, heading=addonInfo('name')):
 
 
 def moderator():
+    """Note which container the addon was opened from.
+
+    This used to call sys.exit() whenever the focused container was not the
+    addon itself, which silently killed every launch from a home-screen widget,
+    a favourite or a RunPlugin() call - the addon simply did nothing. The check
+    never kept anyone out either, since any caller can invoke a plugin URL
+    directly, so it now only logs.
+    """
     netloc = [urlparse(sys.argv[0]).netloc, '', 'plugin.video.live.streamspro', 'plugin.video.phstreams', 'plugin.video.cpstreams', 'plugin.video.tinklepad', 'script.tvguide.fullscreen', 'script.tvguide.assassins']
 
-    if not infoLabel('Container.PluginName') in netloc: sys.exit()
+    container = infoLabel('Container.PluginName')
+    if container not in netloc:
+        xbmc.log('[DooFree] opened from container: %s' % container, xbmc.LOGDEBUG)
 
 
 def metaFile():

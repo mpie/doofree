@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.doofree" version="5.3.0" name="DooFree" provider-name="Mpie">
+<addon id="plugin.video.doofree" version="5.3.1" name="DooFree" provider-name="Mpie">
     <requires>
-        <import addon="xbmc.addon" version="17.9.910" />
+        <import addon="xbmc.python" version="3.0.0" />
         <import addon="xbmc.addon" version="17.9.910" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -25,7 +25,8 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
-            V5.3.0 - Films and series now resume where you stopped watching.
+            V5.3.1 - Fixed playback errors, paging beyond page 4, titles with special
+            characters, and Python 3.9+ compatibility. Failures now say what went wrong.
         </news>
     </extension>
 </addon>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import html.parser
+import html
 import io, gzip, random, re
 from io import BytesIO
 from resources.lib.tools import dom_parser
@@ -26,7 +26,7 @@ def request(url, headers=None, cookie=None, mobile=False, post=None, referer=Non
     if 'User-Agent' in headers:
         pass
     elif mobile is not True:
-        headers['User-Agent'] = randomagent
+        headers['User-Agent'] = randomagent()
     else:
         headers['User-Agent'] = 'Apple-iPhone/701.341'
 
@@ -138,7 +138,8 @@ def replaceHTMLCodes(txt):
 
 def _replaceHTMLCodes(txt):
     txt = re.sub("(&#[0-9]+)([^;^0-9]+)", "\\1;\\2", txt)
-    txt = html.parser.HTMLParser().unescape(txt)
+    # HTMLParser.unescape() was removed in Python 3.9 (Kodi 20 and up).
+    txt = html.unescape(txt)
     txt = txt.replace("&quot;", "\"")
     txt = txt.replace("&amp;", "&")
     txt = txt.strip()

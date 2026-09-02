@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.doofree" name="DooFree" version="5.3.0" provider-name="Mpie">
+    <addon id="plugin.video.doofree" version="5.3.1" name="DooFree" provider-name="Mpie">
         <requires>
+            <import addon="xbmc.python" version="3.0.0" />
             <import addon="xbmc.addon" version="17.9.910" />
-            <import addon="script.module.requests" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="default.py">
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
+            <reuselanguageinvoker>false</reuselanguageinvoker>
             <summary lang="en">Free as in beer :)</summary>
-            <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+            <description lang="en">Enjoy!</description>
             <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum/>
+            <website>https://github.com/mpie/doofree</website>
+            <source>https://github.com/mpie/doofree/repo/plugin.video.doofree</source>
+            <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -19,7 +25,10 @@
                 <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
                 <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
             </assets>
-            <news>Enjoy!</news>
+            <news>
+                V5.3.1 - Fixed playback errors, paging beyond page 4, titles with special
+                characters, and Python 3.9+ compatibility. Failures now say what went wrong.
+            </news>
         </extension>
     </addon>
     <addon id="repository.mpie" name="Mpie Addons repo" version="2.1.0" provider-name="Mpie">
