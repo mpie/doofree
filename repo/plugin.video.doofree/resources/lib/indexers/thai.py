@@ -8,7 +8,7 @@ try:
 except:
     action = None
 
-from resources.lib.tools import control, client, views
+from resources.lib.tools import bookmarks, client, control, player, views
 
 addonFanart = control.addonFanart()
 sysaddon = sys.argv[0]
@@ -137,20 +137,40 @@ class thai:
             name = re.compile('<i class="fas fa-play-circle-player "></i> (.+)').findall(episode[1][0])[
                 0]
             url = episode[0][0]
-            self.list.append({'name': name, 'url': urllib.parse.quote_plus(url), 'image': image})
+            self.list.append({'name': name, 'page_url': url, 'url': urllib.parse.quote_plus(url), 'image': image})
 
         for episode in self.list:
             name = episode['name']
+            page_url = episode['page_url']
             url = episode['url']
             image = episode['image']
             action = 'sourcePage'
             query = '?action=%s&image=%s&url=%s&name=%s' % (action, image, url, urllib.parse.quote_plus(name))
 
             url = '%s%s' % (sysaddon, query)
-            item = control.item(name)
+
+            # A part-watched episode shows how far you got and can be reset from
+            # the context menu.
+            position, duration = bookmarks.get(page_url)
+            label = name
+            context_items = []
+            if position >= bookmarks.MIN_RESUME_SECONDS:
+                label = '%s [COLOR gold](%s)[/COLOR]' % (name, bookmarks.time_label(position))
+                context_items.append((
+                    'DooFree: clear resume point',
+                    'RunPlugin(%s?action=clearResume&url=%s)' % (sysaddon, episode['url']),
+                ))
+
+            item = control.item(label)
             item.setArt({'icon': image})
             if not addonFanart == None: item.setProperty('Fanart_Image', addonFanart)
             item.setInfo(type="Video", infoLabels={"Title": name, "OriginalTitle": name})
+            if position:
+                # Read by skins to draw the partly-watched progress bar.
+                item.setProperty('ResumeTime', str(position))
+                item.setProperty('TotalTime', str(duration if duration else position + 1))
+            if context_items:
+                item.addContextMenuItems(context_items)
             control.addItem(handle=int(sys.argv[1]), url=url, listitem=item, isFolder=False)
 
         # Check if we need next/prev page link
@@ -192,11 +212,6 @@ class thai:
         vidFile = re.compile('file: "(.+?)"').findall(result.decode('utf-8'))[0]
         videoUrl = vidFile.replace('s.mp4', '.mp4')
 
-        item = control.item(path=url)
-        item.setArt({'icon': image})
-        item.setInfo(type='Video', infoLabels={'title': name})
-        item.setProperty('Video', 'true')
-        item.setProperty('IsPlayable', 'true')
-        control.playlist.clear()
-
-        control.player.play(videoUrl + '|Referer:' + url, item)
+        # The resume point is stored under the page URL: the resolved video URL
+        # carries a session token and differs on every play.
+        player.player().playStream(name, videoUrl + '|Referer:' + url, image, resume_url=url)

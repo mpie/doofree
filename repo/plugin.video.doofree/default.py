@@ -92,3 +92,14 @@ elif action == 'listEpisodes':
 elif action == 'sourcePage':
     from resources.lib.indexers import thai
     thai.thai().source_page(url, name, image)
+
+elif action == 'clearResume':
+    from resources.lib.tools import bookmarks, control
+    bookmarks.clear(url)
+    control.refresh()
+
+elif action == 'clearAllResume':
+    from resources.lib.tools import bookmarks, control
+    if bookmarks.clear_all():
+        control.infoDialog('All resume points cleared')
+    control.refresh()

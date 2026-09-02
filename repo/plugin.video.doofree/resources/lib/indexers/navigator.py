@@ -13,7 +13,9 @@ queueMenu = 'Queue'
 
 def root():
     add_directory_item('Live TV', 'thaiLiveTV', 'root_thaitv.png', 'DefaultMovies.png')
-    add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png')
+    add_directory_item('Shows', 'thaiShows', 'root_thaishows.png', 'DefaultMovies.png',
+                       context_items=[('DooFree: clear all resume points',
+                                       'RunPlugin(%s?action=clearAllResume)' % sysaddon)])
     end_directory()
     views.set_view('movies', {'skin.estuary': 500, 'skin.confluence': 500})
 
@@ -23,7 +25,8 @@ def end_directory():
     control.directory(syshandle, cacheToDisc=True)
 
 
-def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_action=True, is_folder=True):
+def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_action=True, is_folder=True,
+                       context_items=None):
     try:
         name = control.lang(name).encode('utf-8')
     except:
@@ -36,6 +39,10 @@ def add_directory_item(name, query, thumb, icon, context=None, queue=False, is_a
 
     if context is not None:
         cm.append((control.lang(context[0]).encode('utf-8'), 'RunPlugin(%s?action=%s)' % (sysaddon, context[1])))
+
+    # Ready-made (label, built-in command) pairs, no string-id lookup involved.
+    if context_items:
+        cm.extend(context_items)
 
     item = control.item(label=name)
     item.addContextMenuItems(cm)
